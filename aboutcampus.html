@@ -1,667 +1,275 @@
-<!DOCTYPE html>
- <html lang="en">
-  <head>
-   <title>Campus</title>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&display=swap" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap" rel="stylesheet">
+< !DOCTYPE html >
+    <html lang="en">
+        <head>
+            <title>Campus</title>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+            <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+                        <link rel="stylesheet" href="/assets/css/campus.css">
+                            <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+                                <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+                                    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+                                        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+                                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                                                <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&display=swap" rel="stylesheet">
+                                                    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap" rel="stylesheet">
+ </head>
+                                                    <body>
+
+
+                                                        <header class="w3-container w3-center w3-padding-32 bgcolor">
+                                                            <h1 class="headtop">CAMPUS OUTLINE</h1>
+                                                            <p>#########description here#########</p>
+                                                        </header>
 
 
 
-   <style>
+                                                        <div class="bgcolor">
+
+                                                            <body>
+
+                                                                <br><div id="myNav1" class="overlay1">
+                                                                    <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">&times;</a>
+                                                                    <div class="overlay-content1">
+                                                                        <a href="#">CONJURA'17</a>
+                                                                        <a href="#">HESTIA'19</a>
+                                                                        <a href="#">HESTIA'20</a>
+                                                                        <a href="#">CRESCITA</a>
+                                                                    </div>
+                                                                </div>
 
 
-
-      .bgcolor{
-        background-color: #71F79F;
-      }
-
-      .headtop{
-        font-size: 60px;
-
-      }
-
-
-
-
-
-
-
-
-
-
-       .images{
-         font-weight: bold;
-         font-size: 20px;
-
-       }
-       .margin {margin-bottom: 45px;}
-       .bg-3 {
-         background-color: #CAA8F5;
-                  color: #555555;
-       }
-       .container-fluid {
-         padding-top: 70px;
-         padding-bottom: 70px;
-       }
-
-      .insight{
-          font-size: 45px;
-          color: #737373;
-          text-align: center;
-          margin-left: 20px;
-          margin-right: 20px;
-          }
-
-       * {box-sizing: border-box}
-       .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7 {display: none}
-       img {vertical-align: middle;}
-
-       /* Slideshow container */
-       .slideshow-container {
-         max-width: 400px;
-         position: relative;
-         margin: auto;
-       }
-
-       /* Next & previous buttons */
-       .prev, .next {
-         cursor: pointer;
-         position: absolute;
-         top: 50%;
-         width: auto%;
-         padding: 16px;
-         margin-top: -22px;
-         color: white;
-         font-weight: bold;
-         font-size: 18px;
-         transition: 0.6s ease;
-         border-radius: 0 3px 3px 0;
-         user-select: none;
-
-       }
-
-       /* Position the "next button" to the right */
-       .next {
-         right: 0;
-         border-radius: 3px 0 0 3px;
-         background-color: #f1f1f1;
-         color: black;
-         opacity: 50%;
-       }
-
-
-       .common{
-         margin-left: 20px;
-         margin-right: 20px;
-       }
-
-
-
-
-
-
-
-
-
-   </style>
-  </head>
-
-
-
-
-
-<body>
-
-
-
-
-
-
-  <header class="w3-container w3-center w3-padding-32 bgcolor">
-  <h1 class="headtop">CAMPUS OUTLINE</h1>
-  <p>#########description here#########</p>
-  </header>
-
-
-
-<div class="bgcolor">
-
-    <style>
-          .overlay1 {
-      height: 100%;
-      width: 0;
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      background-color: rgb(0,0,0);
-      background-color: rgba(0,0,0, 0.9);
-      overflow-x: hidden;
-      transition: 0.5s;
-    }
-
-    .overlay-content1 {
-      position: relative;
-      top: 25%;
-      width: 100%;
-      text-align: center;
-      margin-top: 30px;
-    }
-
-
-    .overlay1 a {
-      padding: 8px;
-      text-decoration: none;
-      font-size: 36px;
-      color: #818181;
-      display: block;
-      transition: 0.3s;
-    }
-
-    .overlay1 a:hover, .overlay1 a:focus {
-      color: #f1f1f1;
-    }
-
-    .overlay1 .closebtn1 {
-      position: absolute;
-      top: 20px;
-      right: 45px;
-      font-size: 60px;
-    }
-
-     @media screen and (max-height: 450px) {
-       .overlay1 a {font-size: 20px}
-       .overlay1 .closebtn1 {
-       font-size: 40px;
-       top: 15px;
-       right: 35px;
-       }
-     }
-     </style>
-
-     <body>
-
-     <br><div id="myNav1" class="overlay1">
-       <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">&times;</a>
-       <div class="overlay-content1">
-         <a href="#">CONJURA'17</a>
-          <a href="#">HESTIA'19</a>
-          <a href="#">HESTIA'20</a>
-          <a href="#">CRESCITA</a>
-        </div>
-      </div>
-
-
-      <span style="font-size:30px;cursor:pointer" onclick="openNav1()" class="common">&#9776; <b>Fests</b> </span>
+                                                                    <span style="font-size:30px;cursor:pointer" onclick="openNav1()" class="common">&#9776; <b>Fests</b> </span>
       </body>
 
-      <script>
-      function openNav1() {
-        document.getElementById("myNav1").style.width = "100%";
-      }
 
-      function closeNav1() {
-        document.getElementById("myNav1").style.width = "0%";
-      }
-      </script>
+                                                                <body>
 
-
-
-
-
-      <style>
-            .overlay2 {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        right: 0;
-        background-color: rgb(0,0,0);
-        background-color: rgba(0,0,0, 0.9);
-        overflow-x: hidden;
-        transition: 0.5s;
-      }
-
-      .overlay-content2 {
-        position: relative;
-        top: 25%;
-        width: 100%;
-        text-align: center;
-        margin-top: 30px;
-      }
+                                                                    <div id="myNav2" class="overlay2">
+                                                                        <a href="javascript:void(0)" class="closebtn2" onclick="closeNav2()">&times;</a>
+                                                                        <div class="overlay-content2">
+                                                                            <a href="#">Film and Drama</a>
+                                                                            <a href="#">Photography</a>
+                                                                            <a href="#">Music and Arts</a>
+                                                                            <a href="#">STEPS</a>
+                                                                        </div>
+                                                                    </div>
 
 
-      .overlay2 a {
-        padding: 8px;
-        text-decoration: none;
-        font-size: 36px;
-        color: #818181;
-        display: block;
-        transition: 0.3s;
-      }
-
-      .overlay2 a:hover, .overlay2 a:focus {
-        color: #f1f1f1;
-      }
-
-      .overlay2 .closebtn2 {
-        position: absolute;
-        top: 20px;
-        left: 45px;
-        font-size: 60px;
-      }
-
-      .right{float:right}
-       @media screen and (max-height: 450px) {
-         .overlay2 a {font-size: 20px}
-         .overlay2 .closebtn2 {
-         font-size: 40px;
-         top: 15px;
-         left: 35px;
-         }
-       }
-       </style>
-
-       <body>
-
-       <div id="myNav2" class="overlay2">
-         <a href="javascript:void(0)" class="closebtn2" onclick="closeNav2()">&times;</a>
-         <div class="overlay-content2">
-           <a href="#">Film and Drama</a>
-           <a href="#">Photography</a>
-           <a href="#">Music and Arts</a>
-           <a href="#">STEPS</a>
-          </div>
-        </div>
-
-
-        <span style="font-size:30px;cursor:pointer" onclick="openNav2()" class="common right" > <b>Gallery</b> &#9776; </span>
-        </body>
-
-        <script>
-        function openNav2() {
-          document.getElementById("myNav2").style.width = "100%";
-        }
-
-        function closeNav2() {
-          document.getElementById("myNav2").style.width = "0%";
-        }
-        </script>
-
+                                                                    <span style="font-size:30px;cursor:pointer" onclick="openNav2()" class="common right" > <b>Gallery</b> &#9776; </span>
+                                                                </body>
  </div>
 
+                                                            <body>
 
 
+                                                                <br><br><div class="tab">
+                                                                    <button class="tablinks font1" onmouseover="subtopics(event, 'CollegeUnion')">College Union</button>
+                                                                    <button class="tablinks font1" onmouseover="subtopics(event, 'Clubs')">Clubs</button>
+                                                                    <button class="tablinks font1" onmouseover="subtopics(event, 'Departments')">Departments</button>
+                                                                    <button class="tablinks font1" onmouseover="subtopics(event, 'QuickLinks')">Quick Links</button>
+                                                                </div>
 
-
-
-
-
-           <style>
-           * {box-sizing: border-box}
-           body {font-family: "Lato", sans-serif;}
-
-           /* Style the tab */
-           .tab {
-             float: left;
-             background-color: #EBF5EE;
-             width: 30%;
-           }
-
-           /* Style the buttons inside the tab */
-           .tab button {
-             display: block;
-             background-color: inherit;
-             color: black;
-             padding: 22px 16px;
-             width: 100%;
-             border: 10px;
-             outline: 10px;
-             text-align: left;
-             cursor: pointer;
-             font-size: 17px;
-           }
-
-           /* Change background color of buttons on hover */
-           .tab button:hover {
-             background-color: black;
-           }
-
-           /* Create an active/current "tab button" class */
-           .tab button.active {
-             background-color: #B9E6FF;
-           }
-
-           /* Style the tab content */
-           .tabcontent {
-             float: left;
-             padding: 0px 12px;
-             border-left: none;
-             width:70%;
-             display: none;
-           }
-
-           /* Clear floats after the tab */
-           .clearfix::after {
-             content: "";
-             clear: both;
-             display: table;
-           }
-           .font1{font-family: 'Hind Madurai', sans-serif;}
-           .font2{font-family: 'Exo 2', sans-serif;}
-
-
-              a:link {
-                color: #4D685A;
-              }
-
-              /* visited link */
-              a:visited {
-                color: black;
-              }
-
-              /* mouse over link */
-              a:hover {
-                color: #DBD2E0;
-              }
-
-              /* selected link */
-              a:active {
-                color: blue;
-              }
-           </style>
-
-
-
-           <body>
-
-
-           <br><br><div class="tab">
-             <button class="tablinks font1" onmouseover="subtopics(event, 'CollegeUnion')">College Union</button>
-             <button class="tablinks font1" onmouseover="subtopics(event, 'Clubs')">Clubs</button>
-             <button class="tablinks font1" onmouseover="subtopics(event, 'Departments')">Departments</button>
-             <button class="tablinks font1" onmouseover="subtopics(event, 'QuickLinks')">Quick Links</button>
-           </div>
-
-           <div id="CollegeUnion" class="tabcontent font2">
-             <h3><b>College Union</b></h3>
-             <p>The TKMCE  College Union has been the backbone and driving force of the students of the institution ever since its inception. The student body strives to enhance the academic, technical, cultural and athletic reach of the students. The Union always panders to the needs of the students and articulates them unto the faculty. Over the years, it has earned the trust of faculty, management and most of all, the students, with their consistency and impeccable leadership. The council yearns for innovation and lights a flame of brotherhood in all.</p>
-             <h4>Manaveeyam</h4>
-             <p>Manaveeyam was held on November 1st, 2018, the day of Kerala Piravi.  Competitions like Tug of War, traditionally called ‘Vadamvali’ and ‘Malayali Manka’ were held on the day adding zeal to the celebrations. Donations were made to organizations of several needs.The day celebrated togetherness and harmony amongst all Keralites. </p>
-             <h4>Union Inauguration</h4>
-             <p>The college union inauguration for the academic year 2018-19, “Aagathi”, was held on 13th November 2018. The programme was officially inaugurated by Honorable Chief Guest Ms Illakiya IAS, sub- collector of Kollam. The newly elected student union took the oath. Logo for literary and debate club was launched by the chief guest. We also honored our teachers who volunteered to lead the students in the flood relief activities. Followed by the Union inauguration was the Arts club inauguration done by playback singer Mr. K S Harishankar. About 50 cultural programs were staged after the inaugural function.</p>
-             <h4>Film Fest</h4>
-             <p>The Film and Drama club of TKMCE  conducted the Film Festival from 24th January to the 27th. Officially inaugurated in the name TKMFF’19 the event was graced by critically celebrated director and writer V C ABHILASH and imminent actor, director and producer PRAKASH BARE along with ADITI BALAN, Aruvi fame and SHAMMI THILAKAN. An informative and interactive session with the dignitaries served answers to many doubts.
-              This fest was conducted in association with Kerala State Chalachithra Academy (KSCA) and Women in Cinema Collective (WCC). The fest was also filled in with numerous workshops and talks  along with the movies.
+                                                                    <div id="CollegeUnion" class="tabcontent font2">
+                                                                        <h3><b>College Union</b></h3>
+                                                                        <p>The TKMCE  College Union has been the backbone and driving force of the students of the institution ever since its inception. The student body strives to enhance the academic, technical, cultural and athletic reach of the students. The Union always panders to the needs of the students and articulates them unto the faculty. Over the years, it has earned the trust of faculty, management and most of all, the students, with their consistency and impeccable leadership. The council yearns for innovation and lights a flame of brotherhood in all.</p>
+                                                                        <h4>Manaveeyam</h4>
+                                                                        <p>Manaveeyam was held on November 1st, 2018, the day of Kerala Piravi.  Competitions like Tug of War, traditionally called ‘Vadamvali’ and ‘Malayali Manka’ were held on the day adding zeal to the celebrations. Donations were made to organizations of several needs.The day celebrated togetherness and harmony amongst all Keralites. </p>
+                                                                        <h4>Union Inauguration</h4>
+                                                                        <p>The college union inauguration for the academic year 2018-19, “Aagathi”, was held on 13th November 2018. The programme was officially inaugurated by Honorable Chief Guest Ms Illakiya IAS, sub- collector of Kollam. The newly elected student union took the oath. Logo for literary and debate club was launched by the chief guest. We also honored our teachers who volunteered to lead the students in the flood relief activities. Followed by the Union inauguration was the Arts club inauguration done by playback singer Mr. K S Harishankar. About 50 cultural programs were staged after the inaugural function.</p>
+                                                                        <h4>Film Fest</h4>
+                                                                        <p>The Film and Drama club of TKMCE  conducted the Film Festival from 24th January to the 27th. Officially inaugurated in the name TKMFF’19 the event was graced by critically celebrated director and writer V C ABHILASH and imminent actor, director and producer PRAKASH BARE along with ADITI BALAN, Aruvi fame and SHAMMI THILAKAN. An informative and interactive session with the dignitaries served answers to many doubts.
+                                                                        This fest was conducted in association with Kerala State Chalachithra Academy (KSCA) and Women in Cinema Collective (WCC). The fest was also filled in with numerous workshops and talks  along with the movies.
               A diverse collection of movies were screened during the festival. Various corners of our college such as the Auditorium, Jubilee Hall etc. held the screening. The Fall and Tumbadd were movies that had left the audience in awe.</p>
+                                                                    </div>
+
+                                                                    <div id="Clubs" class="tabcontent font2">
+                                                                        <h3><b>Clubs</b></h3>
+                                                                        <br><h4>FILM AND DRAMA</h4><p>Acting and films are the true drugs and TKMians are addicted. With memorable and thought provoking dramas and solo performances at various events, the club aims at inspiring the students and welcoming the young actors and script writers onto the main stage The annual film festival conducted by the club, TKM FF, provides a one of a kind experience and fun along with exposure to the industry through various workshops by reputed names.</p>
+                                                                            <h4>PHOTOGRAPHY</h4><p>The skillful student photographers of the club capture the essence of each programme and the hard work of the people behind it the expo and timely photography competitions by the club are always a matter of fun.</p>
+                                                                            <h4>STEPS</h4><p>The helping hand for the people in need. Working under the college union TECHNOS, STEPS is now the name for efficient blood donation, social awareness campaigns, charity programmes and most importantly elevating the status and providing education to the poor and orphaned children in the city. With its weekly programmes and classes with  uncompromising efficiency STEPS have earned a place in the heart of the public and is making itself visible throughout kerala.</p>
            </div>
 
-           <div id="Clubs" class="tabcontent font2">
-             <h3><b>Clubs</b></h3>
-             <br><h4>FILM AND DRAMA</h4><p>Acting and films are the true drugs and TKMians are addicted. With memorable and thought provoking dramas and solo performances at various events, the club aims at inspiring the students and welcoming the young actors and script writers onto the main stage The annual film festival conducted by the club, TKM FF, provides a one of a kind experience and fun along with exposure to the industry through various workshops by reputed names.</p>
-             <h4>PHOTOGRAPHY</h4><p>The skillful student photographers of the club capture the essence of each programme and the hard work of the people behind it the expo and timely photography competitions by the club are always a matter of fun.</p>
-             <h4>STEPS</h4><p>The helping hand for the people in need. Working under the college union TECHNOS, STEPS is now the name for efficient blood donation, social awareness campaigns, charity programmes and most importantly elevating the status and providing education to the poor and orphaned children in the city. With its weekly programmes and classes with  uncompromising efficiency STEPS have earned a place in the heart of the public and is making itself visible throughout kerala.</p>
-           </div>
+
+                                                                        <div id="Departments" class="tabcontent font2">
+                                                                            <h3><b>&nbsp;&nbsp; Departments</b></h3>
+                                                                            <ol>
+                                                                                <li><a href="#"><h4>Architecture</h4></a></li><li><a href="#"><h4>Chemical Engineering</h4></a></li><li><a href="#"><h4>Chemistry</h4></a></li><li><a href="#"><h4>Civil Engineering</h4></a></li><li><a href="#"><h4>Computer Science & Engineering</h4></a></li><li><a href="#"><h4>Electrical & Electronics Engineering</h4></a></li><li><a href="#"><h4>Electronics & Communication Engineering</h4></a></li><li><a href="#"><h4>Master of Computer Application</h4></a></li><li><a href="#"><h4>Mechanical Engineering</h4></a></li><li><a href="#"><h4>Mathematics</h4></a></li><li><a href="#"><h4>Physical Education</h4></a></li><li><a href="#"><h4>Physics</h4></a></li>
+                                                                            </ol>
+
+                                                                        </div>
+
+                                                                        <div id="QuickLinks" class="tabcontent font2">
+                                                                            <h3><b>Quick Links</b></h3>
+                                                                            <ul>
+                                                                                <li><a href="#"><h4>Linways</h4></a></li><li><a href="#"><h4>Central Library</h4></a></li><li><a href="#"><h4>NPTEL</h4></a></li><li><a href="#"><h4>Tenders</h4></a></li><li><a href="#"><h4>Downloads</h4></a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <div class="clearfix"></div>
+
+                                                                        <br><br><h3 class="insight">A Short Insight To Our Campus</h3><br>
+                                                                            <div class="container-fluid bg-3 text-center">
+                                                                                <div class="row">
 
 
-           <div id="Departments" class="tabcontent font2">
-             <h3><b>&nbsp;&nbsp; Departments</b></h3>
-             <ol>
-               <li><a href="#"><h4>Architecture</h4></a></li><li><a href="#"><h4>Chemical Engineering</h4></a></li><li><a href="#"><h4>Chemistry</h4></a></li><li><a href="#"><h4>Civil Engineering</h4></a></li><li><a href="#"><h4>Computer Science & Engineering</h4></a></li><li><a href="#"><h4>Electrical & Electronics Engineering</h4></a></li><li><a href="#"><h4>Electronics & Communication Engineering</h4></a></li><li><a href="#"><h4>Master of Computer Application</h4></a></li><li><a href="#"><h4>Mechanical Engineering</h4></a></li><li><a href="#"><h4>Mathematics</h4></a></li><li><a href="#"><h4>Physical Education</h4></a></li><li><a href="#"><h4>Physics</h4></a></li>
-             </ol>
+                                                                                    <div class="col-sm-4">
 
-           </div>
+                                                                                        <div class="slideshow-container">
 
-           <div id="QuickLinks" class="tabcontent font2">
-             <h3><b>Quick Links</b></h3>
-             <ul>
-               <li><a href="#"><h4>Linways</h4></a></li><li><a href="#"><h4>Central Library</h4></a></li><li><a href="#"><h4>NPTEL</h4></a></li><li><a href="#"><h4>Tenders</h4></a></li><li><a href="#"><h4>Downloads</h4></a></li>
-             </ul>
-           </div>
-           <div class="clearfix"></div>
-
-           <script>
-           function subtopics(evt, cityName) {
-             var i, tabcontent, tablinks;
-             tabcontent = document.getElementsByClassName("tabcontent");
-             for (i = 0; i < tabcontent.length; i++) {
-               tabcontent[i].style.display = "none";
-             }
-             tablinks = document.getElementsByClassName("tablinks");
-             for (i = 0; i < tablinks.length; i++) {
-               tablinks[i].className = tablinks[i].className.replace(" active", "");
-             }
-             document.getElementById(cityName).style.display = "block";
-             evt.currentTarget.className += " active";
-           }
-           </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <br><br><h3 class="insight">A Short Insight To Our Campus</h3><br>
-  <div class="container-fluid bg-3 text-center">
-  <div class="row">
-
-
-    <div class="col-sm-4">
-
-      <div class="slideshow-container">
-
-        <div class="mySlides1">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (1).jpeg" style="width:100%">
+                                                                                            <div class="mySlides1">
+                                                                                                <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (1).jpeg" style="width:100%">
         </div>
 
-        <div class="mySlides1">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (2).jpeg" style="width:100%">
+                                                                                                <div class="mySlides1">
+                                                                                                    <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (2).jpeg" style="width:100%">
         </div>
 
-        <div class="mySlides1">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (3).jpeg" style="width:100%">
+                                                                                                    <div class="mySlides1">
+                                                                                                        <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (3).jpeg" style="width:100%">
         </div>
 
 
-        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-      <p class="images">AUDITORIUM</p>
-      </div>
+                                                                                                        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                                                                                                        <p class="images">AUDITORIUM</p>
+                                                                                                    </div>
 
 
-    </div>
+                                                                                                </div>
 
-    <div class="col-sm-4">
+                                                                                                <div class="col-sm-4">
 
-      <div class="slideshow-container">
-        <div class="mySlides2">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (4).jpeg" style="width:100%">
+                                                                                                    <div class="slideshow-container">
+                                                                                                        <div class="mySlides2">
+                                                                                                            <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (4).jpeg" style="width:100%">
         </div>
 
-        <div class="mySlides2">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (5).jpeg" style="width:100%">
+                                                                                                            <div class="mySlides2">
+                                                                                                                <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (5).jpeg" style="width:100%">
         </div>
 
-        <div class="mySlides2">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (6).jpeg" style="width:100%">
-        </div>
-
-
-        <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-      <p class="images">APJ PARK</p>
-      </div>
-    </div>
-
-    <div class="col-sm-4">
-
-      <div class="slideshow-container">
-        <div class="mySlides3">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (7).jpeg" style="width:100%">
-        </div>
-
-        <div class="mySlides3">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (8).jpeg" style="width:100%">
-        </div>
-
-        <div class="mySlides3">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (9).jpeg" style="width:100%">
+                                                                                                                <div class="mySlides2">
+                                                                                                                    <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (6).jpeg" style="width:100%">
         </div>
 
 
-        <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-      <p class="images">APJ HALL</p>
-      </div>
-    </div>
+                                                                                                                    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                                                                                                                    <p class="images">APJ PARK</p>
+                                                                                                                </div>
+                                                                                                            </div>
 
-    <div class="col-sm-4">
+                                                                                                            <div class="col-sm-4">
 
-      <div class="slideshow-container">
-        <div class="mySlides4">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (10).jpeg" style="width:100%">
+                                                                                                                <div class="slideshow-container">
+                                                                                                                    <div class="mySlides3">
+                                                                                                                        <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (7).jpeg" style="width:100%">
         </div>
 
-        <div class="mySlides4">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (11).jpeg" style="width:100%">
+                                                                                                                        <div class="mySlides3">
+                                                                                                                            <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (8).jpeg" style="width:100%">
         </div>
 
-        <div class="mySlides4">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (12).jpeg" style="width:100%">
-        </div>
-
-
-        <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
-      <p class="images">FACILITIES</p>
-      </div>
-    </div>
-
-    <div class="col-sm-4">
-
-      <div class="slideshow-container">
-        <div class="mySlides5">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (13).jpeg" style="width:100%">
-        </div>
-
-        <div class="mySlides5">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (14).jpeg" style="width:100%">
-        </div>
-
-        <div class="mySlides5">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (15).jpeg" style="width:100%">
+                                                                                                                            <div class="mySlides3">
+                                                                                                                                <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (9).jpeg" style="width:100%">
         </div>
 
 
-        <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
-      <p class="images">CANTEEN</p>
-      </div>
-    </div>
+                                                                                                                                <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+                                                                                                                                <p class="images">APJ HALL</p>
+                                                                                                                            </div>
+                                                                                                                        </div>
 
-    <div class="col-sm-4">
+                                                                                                                        <div class="col-sm-4">
 
-      <div class="slideshow-container">
-        <div class="mySlides6">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (1).jpeg" style="width:100%">
+                                                                                                                            <div class="slideshow-container">
+                                                                                                                                <div class="mySlides4">
+                                                                                                                                    <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (10).jpeg" style="width:100%">
         </div>
 
-        <div class="mySlides6">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (2).jpeg" style="width:100%">
+                                                                                                                                    <div class="mySlides4">
+                                                                                                                                        <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (11).jpeg" style="width:100%">
         </div>
 
-        <div class="mySlides6">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (3).jpeg" style="width:100%">
+                                                                                                                                        <div class="mySlides4">
+                                                                                                                                            <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (12).jpeg" style="width:100%">
         </div>
 
 
-        <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
-      <p class="images">PLAY AREA</p>
-      </div>
-    </div>
+                                                                                                                                            <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+                                                                                                                                            <p class="images">FACILITIES</p>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
 
-    <div class="col-sm-4">
+                                                                                                                                    <div class="col-sm-4">
 
-      <div class="slideshow-container">
-        <div class="mySlides7">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (4).jpeg" style="width:100%">
+                                                                                                                                        <div class="slideshow-container">
+                                                                                                                                            <div class="mySlides5">
+                                                                                                                                                <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (13).jpeg" style="width:100%">
         </div>
 
-        <div class="mySlides7">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (5).jpeg" style="width:100%">
+                                                                                                                                                <div class="mySlides5">
+                                                                                                                                                    <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (14).jpeg" style="width:100%">
         </div>
 
-        <div class="mySlides7">
-          <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (6).jpeg" style="width:100%">
+                                                                                                                                                    <div class="mySlides5">
+                                                                                                                                                        <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (15).jpeg" style="width:100%">
         </div>
 
-        <a class="next" onclick="plusSlides(1, 6)">&#10095;</a>
-      <p class="images">TO BE FILLED</p>
-      </div>
-    </div>
-  </div>
-</div>
+
+                                                                                                                                                        <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+                                                                                                                                                        <p class="images">CANTEEN</p>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+
+                                                                                                                                                <div class="col-sm-4">
+
+                                                                                                                                                    <div class="slideshow-container">
+                                                                                                                                                        <div class="mySlides6">
+                                                                                                                                                            <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (1).jpeg" style="width:100%">
+        </div>
+
+                                                                                                                                                            <div class="mySlides6">
+                                                                                                                                                                <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (2).jpeg" style="width:100%">
+        </div>
+
+                                                                                                                                                                <div class="mySlides6">
+                                                                                                                                                                    <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (3).jpeg" style="width:100%">
+        </div>
 
 
+                                                                                                                                                                    <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
+                                                                                                                                                                    <p class="images">PLAY AREA</p>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+
+                                                                                                                                                            <div class="col-sm-4">
+
+                                                                                                                                                                <div class="slideshow-container">
+                                                                                                                                                                    <div class="mySlides7">
+                                                                                                                                                                        <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (4).jpeg" style="width:100%">
+        </div>
+
+                                                                                                                                                                        <div class="mySlides7">
+                                                                                                                                                                            <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (5).jpeg" style="width:100%">
+        </div>
+
+                                                                                                                                                                            <div class="mySlides7">
+                                                                                                                                                                                <img src="assets/img/WhatsApp Image 2020-05-24 at 07.13.15 (6).jpeg" style="width:100%">
+        </div>
+
+                                                                                                                                                                                <a class="next" onclick="plusSlides(1, 6)">&#10095;</a>
+                                                                                                                                                                                <p class="images">TO BE FILLED</p>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
 
 
+                                                                                                                                                                <div class="w3-container w3-sand" style="padding:16px">
+                                                                                                                                                                    <a href="#" class="w3-button w3-black w3-padding-small w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
 
-
-
-
-
-    <script>
-    var slideIndex = [0,2];
-    var slideId = ["mySlides1", "mySlides2", "mySlides3","mySlides4", "mySlides5", "mySlides6", "mySlides7"]
-    showSlides(1, 0);
-    showSlides(1, 1);
-    showSlides(1, 2);
-    showSlides(1, 3);
-    showSlides(1, 4);
-    showSlides(1, 5);
-    showSlides(1, 6);
-
-    function plusSlides(n, no) {
-      showSlides(slideIndex[no] += n, no);
-    }
-
-    function showSlides(n, no) {
-      var i;
-      var x = document.getElementsByClassName(slideId[no]);
-      if (n > x.length) {slideIndex[no] = 1}
-      if (n < 2) {slideIndex[no] = x.length}
-      for (i = 0; i < x.length; i++) {
-         x[i].style.display = "none";
-      }
-      x[slideIndex[no]-1].style.display = "block";
-    }
-</script>
-
-
-           <div class="w3-container w3-sand" style="padding:16px">
-           <a href="#" class="w3-button w3-black w3-padding-small w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-
-          </div>
+                                                                                                                                                                </div>
 
 
 
@@ -670,4 +278,6 @@
 
 
 </body>
+
+                                                                                                                                                            <script src="assets/scripts/campus.js"></script>
 </html>
