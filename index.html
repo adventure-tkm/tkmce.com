@@ -5,391 +5,1400 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TKM College of Engineering</title>
      <!-- styles -->
+      <!-- Libs CSS -->
+    <link rel="stylesheet" href="assets/fonts/Feather/feather.css">
+    <link rel="stylesheet" href="assets/libs/flickity/dist/flickity.min.css">
+    <link rel="stylesheet" href="assets/libs/flickity-fade/flickity-fade.css">
+    <link rel="stylesheet" href="assets/libs/aos/dist/aos.css">
+    <link rel="stylesheet" href="assets/libs/jarallax/dist/jarallax.css">
+    <link rel="stylesheet" href="assets/libs/highlightjs/styles/vs2015.css">
+    <link rel="stylesheet" href="assets/libs/%40fancyapps/fancybox/dist/jquery.fancybox.min.css">
      <link rel="stylesheet" href="assets/css/style.css">
-     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
+     <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+     <script type="text/javascript" src="engine1/jquery.js"></script>
 </head>
 <body>
   <div clas="container">
       <!-- ======================= header================================================= -->
-      <header class="blog-header py-3">
-        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-            <h5 class="my-0 mr-md-auto font-weight-normal">TKM College of Engineering</h5>
-            <nav class="my-2 my-md-0 mr-md-3">
-              <a class="p-2 text-dark" href="#">Features</a>
-              <a class="p-2 text-dark" href="#">Enterprise</a>
-              <a class="p-2 text-dark" href="#">Support</a>
-              <a class="p-2 text-dark" href="#">Pricing</a>
-            </nav>
-            <a class="btn btn-outline-primary" href="#">Sign up</a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+  
+          <!-- Brand -->
+          <a class="navbar-brand" href="index-2.html">
+            TKMCE
+          </a>
+  
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <!-- Collapse -->
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+  
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fe fe-x"></i>
+            </button>
+  
+            <!-- Navigation -->
+            <ul class="navbar-nav ml-auto">
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDocumentation" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                 About Us
+                </a>
+                <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarDocumentation">
+                  <div class="list-group list-group-flush">
+                    <a class="list-group-item" href="docs/index.html">
+  
+                      <!-- Icon -->
+                      <div class="icon icon-sm text-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M8 3v.5A1.5 1.5 0 009.5 5h5A1.5 1.5 0 0016 3.5V3h2a2 2 0 012 2v16a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2h2z" fill="#335EEA" opacity=".3"></path><path d="M11 2a1 1 0 012 0h1.5a.5.5 0 01.5.5v1a.5.5 0 01-.5.5h-5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11z" fill="#335EEA"></path><rect fill="#335EEA" opacity=".3" x="7" y="10" width="5" height="2" rx="1"></rect><rect fill="#335EEA" opacity=".3" x="7" y="14" width="9" height="2" rx="1"></rect></g></svg>
+                      </div>
+  
+                      <!-- Content -->
+                      <div class="ml-4">
+  
+                        <!-- Heading -->
+                        <h6 class="font-weight-bold text-uppercase text-primary mb-0">
+                          Documentation
+                        </h6>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-gray-700 mb-0">
+                          Customizing and building
+                        </p>
+  
+                      </div>
+  
+                    </a>
+                    <a class="list-group-item" href="docs/alerts.html">
+  
+                      <!-- Icon -->
+                      <div class="icon icon-sm text-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><rect fill="#335EEA" x="4" y="4" width="7" height="7" rx="1.5"></rect><path d="M5.5 13h4a1.5 1.5 0 011.5 1.5v4A1.5 1.5 0 019.5 20h-4A1.5 1.5 0 014 18.5v-4A1.5 1.5 0 015.5 13zm9-9h4A1.5 1.5 0 0120 5.5v4a1.5 1.5 0 01-1.5 1.5h-4A1.5 1.5 0 0113 9.5v-4A1.5 1.5 0 0114.5 4zm0 9h4a1.5 1.5 0 011.5 1.5v4a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-4a1.5 1.5 0 011.5-1.5z" fill="#335EEA" opacity=".3"></path></g></svg>
+                      </div>
+  
+                      <!-- Content -->
+                      <div class="ml-4">
+  
+                        <!-- Heading -->
+                        <h6 class="font-weight-bold text-uppercase text-primary mb-0">
+                          Components
+                        </h6>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-gray-700 mb-0">
+                          Full list of components
+                        </p>
+  
+                      </div>
+  
+                    </a>
+                    <a class="list-group-item" href="docs/changelog.html">
+  
+                      <!-- Icon -->
+                      <div class="icon icon-sm text-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M5.857 2h7.88a1.5 1.5 0 01.968.355l4.764 4.029A1.5 1.5 0 0120 7.529v12.554c0 1.79-.02 1.917-1.857 1.917H5.857C4.02 22 4 21.874 4 20.083V3.917C4 2.127 4.02 2 5.857 2z" fill="#335EEA" opacity=".3"></path><rect fill="#335EEA" x="6" y="11" width="9" height="2" rx="1"></rect><rect fill="#335EEA" x="6" y="15" width="5" height="2" rx="1"></rect></g></svg>
+                      </div>
+  
+                      <!-- Content -->
+                      <div class="ml-4">
+  
+                        <!-- Heading -->
+                        <h6 class="font-weight-bold text-uppercase text-primary mb-0">
+                          Changelog
+                        </h6>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-gray-700 mb-0">
+                          Keep track of changes
+                        </p>
+  
+                      </div>
+  
+                      <!-- Badge -->
+                      <span class="badge badge-pill badge-primary-soft ml-auto">
+                        1.1.3
+                      </span>
+  
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDocumentation" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                 Academics
+                </a>
+                <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarDocumentation">
+                  <div class="list-group list-group-flush">
+                    <a class="list-group-item" href="docs/index.html">
+  
+                      <!-- Icon -->
+                      <div class="icon icon-sm text-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M8 3v.5A1.5 1.5 0 009.5 5h5A1.5 1.5 0 0016 3.5V3h2a2 2 0 012 2v16a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2h2z" fill="#335EEA" opacity=".3"></path><path d="M11 2a1 1 0 012 0h1.5a.5.5 0 01.5.5v1a.5.5 0 01-.5.5h-5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11z" fill="#335EEA"></path><rect fill="#335EEA" opacity=".3" x="7" y="10" width="5" height="2" rx="1"></rect><rect fill="#335EEA" opacity=".3" x="7" y="14" width="9" height="2" rx="1"></rect></g></svg>
+                      </div>
+  
+                      <!-- Content -->
+                      <div class="ml-4">
+  
+                        <!-- Heading -->
+                        <h6 class="font-weight-bold text-uppercase text-primary mb-0">
+                          Documentation
+                        </h6>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-gray-700 mb-0">
+                          Customizing and building
+                        </p>
+  
+                      </div>
+  
+                    </a>
+                    <a class="list-group-item" href="docs/alerts.html">
+  
+                      <!-- Icon -->
+                      <div class="icon icon-sm text-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><rect fill="#335EEA" x="4" y="4" width="7" height="7" rx="1.5"></rect><path d="M5.5 13h4a1.5 1.5 0 011.5 1.5v4A1.5 1.5 0 019.5 20h-4A1.5 1.5 0 014 18.5v-4A1.5 1.5 0 015.5 13zm9-9h4A1.5 1.5 0 0120 5.5v4a1.5 1.5 0 01-1.5 1.5h-4A1.5 1.5 0 0113 9.5v-4A1.5 1.5 0 0114.5 4zm0 9h4a1.5 1.5 0 011.5 1.5v4a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-4a1.5 1.5 0 011.5-1.5z" fill="#335EEA" opacity=".3"></path></g></svg>
+                      </div>
+  
+                      <!-- Content -->
+                      <div class="ml-4">
+  
+                        <!-- Heading -->
+                        <h6 class="font-weight-bold text-uppercase text-primary mb-0">
+                          Components
+                        </h6>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-gray-700 mb-0">
+                          Full list of components
+                        </p>
+  
+                      </div>
+  
+                    </a>
+                    <a class="list-group-item" href="docs/changelog.html">
+  
+                      <!-- Icon -->
+                      <div class="icon icon-sm text-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M5.857 2h7.88a1.5 1.5 0 01.968.355l4.764 4.029A1.5 1.5 0 0120 7.529v12.554c0 1.79-.02 1.917-1.857 1.917H5.857C4.02 22 4 21.874 4 20.083V3.917C4 2.127 4.02 2 5.857 2z" fill="#335EEA" opacity=".3"></path><rect fill="#335EEA" x="6" y="11" width="9" height="2" rx="1"></rect><rect fill="#335EEA" x="6" y="15" width="5" height="2" rx="1"></rect></g></svg>
+                      </div>
+  
+                      <!-- Content -->
+                      <div class="ml-4">
+  
+                        <!-- Heading -->
+                        <h6 class="font-weight-bold text-uppercase text-primary mb-0">
+                          Changelog
+                        </h6>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-gray-700 mb-0">
+                          Keep track of changes
+                        </p>
+  
+                      </div>
+  
+                      <!-- Badge -->
+                      <span class="badge badge-pill badge-primary-soft ml-auto">
+                        1.1.3
+                      </span>
+  
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDocumentation" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                 Placement
+                </a>
+                <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarDocumentation">
+                  <div class="list-group list-group-flush">
+                    <a class="list-group-item" href="docs/index.html">
+  
+                      <!-- Icon -->
+                      <div class="icon icon-sm text-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M8 3v.5A1.5 1.5 0 009.5 5h5A1.5 1.5 0 0016 3.5V3h2a2 2 0 012 2v16a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2h2z" fill="#335EEA" opacity=".3"></path><path d="M11 2a1 1 0 012 0h1.5a.5.5 0 01.5.5v1a.5.5 0 01-.5.5h-5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11z" fill="#335EEA"></path><rect fill="#335EEA" opacity=".3" x="7" y="10" width="5" height="2" rx="1"></rect><rect fill="#335EEA" opacity=".3" x="7" y="14" width="9" height="2" rx="1"></rect></g></svg>
+                      </div>
+  
+                      <!-- Content -->
+                      <div class="ml-4">
+  
+                        <!-- Heading -->
+                        <h6 class="font-weight-bold text-uppercase text-primary mb-0">
+                          Documentation
+                        </h6>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-gray-700 mb-0">
+                          Customizing and building
+                        </p>
+  
+                      </div>
+  
+                    </a>
+                    <a class="list-group-item" href="docs/alerts.html">
+  
+                      <!-- Icon -->
+                      <div class="icon icon-sm text-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><rect fill="#335EEA" x="4" y="4" width="7" height="7" rx="1.5"></rect><path d="M5.5 13h4a1.5 1.5 0 011.5 1.5v4A1.5 1.5 0 019.5 20h-4A1.5 1.5 0 014 18.5v-4A1.5 1.5 0 015.5 13zm9-9h4A1.5 1.5 0 0120 5.5v4a1.5 1.5 0 01-1.5 1.5h-4A1.5 1.5 0 0113 9.5v-4A1.5 1.5 0 0114.5 4zm0 9h4a1.5 1.5 0 011.5 1.5v4a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-4a1.5 1.5 0 011.5-1.5z" fill="#335EEA" opacity=".3"></path></g></svg>
+                      </div>
+  
+                      <!-- Content -->
+                      <div class="ml-4">
+  
+                        <!-- Heading -->
+                        <h6 class="font-weight-bold text-uppercase text-primary mb-0">
+                          Components
+                        </h6>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-gray-700 mb-0">
+                          Full list of components
+                        </p>
+  
+                      </div>
+  
+                    </a>
+                    <a class="list-group-item" href="docs/changelog.html">
+  
+                      <!-- Icon -->
+                      <div class="icon icon-sm text-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M5.857 2h7.88a1.5 1.5 0 01.968.355l4.764 4.029A1.5 1.5 0 0120 7.529v12.554c0 1.79-.02 1.917-1.857 1.917H5.857C4.02 22 4 21.874 4 20.083V3.917C4 2.127 4.02 2 5.857 2z" fill="#335EEA" opacity=".3"></path><rect fill="#335EEA" x="6" y="11" width="9" height="2" rx="1"></rect><rect fill="#335EEA" x="6" y="15" width="5" height="2" rx="1"></rect></g></svg>
+                      </div>
+  
+                      <!-- Content -->
+                      <div class="ml-4">
+  
+                        <!-- Heading -->
+                        <h6 class="font-weight-bold text-uppercase text-primary mb-0">
+                          Changelog
+                        </h6>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-gray-700 mb-0">
+                          Keep track of changes
+                        </p>
+  
+                      </div>
+  
+                      <!-- Badge -->
+                      <span class="badge badge-pill badge-primary-soft ml-auto">
+                        1.1.3
+                      </span>
+  
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDocumentation" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                 Students
+                </a>
+                <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarDocumentation">
+                  <div class="list-group list-group-flush">
+                    <a class="list-group-item" href="docs/index.html">
+  
+                      <!-- Icon -->
+                      <div class="icon icon-sm text-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M8 3v.5A1.5 1.5 0 009.5 5h5A1.5 1.5 0 0016 3.5V3h2a2 2 0 012 2v16a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2h2z" fill="#335EEA" opacity=".3"></path><path d="M11 2a1 1 0 012 0h1.5a.5.5 0 01.5.5v1a.5.5 0 01-.5.5h-5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11z" fill="#335EEA"></path><rect fill="#335EEA" opacity=".3" x="7" y="10" width="5" height="2" rx="1"></rect><rect fill="#335EEA" opacity=".3" x="7" y="14" width="9" height="2" rx="1"></rect></g></svg>
+                      </div>
+  
+                      <!-- Content -->
+                      <div class="ml-4">
+  
+                        <!-- Heading -->
+                        <h6 class="font-weight-bold text-uppercase text-primary mb-0">
+                          Documentation
+                        </h6>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-gray-700 mb-0">
+                          Customizing and building
+                        </p>
+  
+                      </div>
+  
+                    </a>
+                    <a class="list-group-item" href="docs/alerts.html">
+  
+                      <!-- Icon -->
+                      <div class="icon icon-sm text-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><rect fill="#335EEA" x="4" y="4" width="7" height="7" rx="1.5"></rect><path d="M5.5 13h4a1.5 1.5 0 011.5 1.5v4A1.5 1.5 0 019.5 20h-4A1.5 1.5 0 014 18.5v-4A1.5 1.5 0 015.5 13zm9-9h4A1.5 1.5 0 0120 5.5v4a1.5 1.5 0 01-1.5 1.5h-4A1.5 1.5 0 0113 9.5v-4A1.5 1.5 0 0114.5 4zm0 9h4a1.5 1.5 0 011.5 1.5v4a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-4a1.5 1.5 0 011.5-1.5z" fill="#335EEA" opacity=".3"></path></g></svg>
+                      </div>
+  
+                      <!-- Content -->
+                      <div class="ml-4">
+  
+                        <!-- Heading -->
+                        <h6 class="font-weight-bold text-uppercase text-primary mb-0">
+                          Components
+                        </h6>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-gray-700 mb-0">
+                          Full list of components
+                        </p>
+  
+                      </div>
+  
+                    </a>
+                    <a class="list-group-item" href="docs/changelog.html">
+  
+                      <!-- Icon -->
+                      <div class="icon icon-sm text-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M5.857 2h7.88a1.5 1.5 0 01.968.355l4.764 4.029A1.5 1.5 0 0120 7.529v12.554c0 1.79-.02 1.917-1.857 1.917H5.857C4.02 22 4 21.874 4 20.083V3.917C4 2.127 4.02 2 5.857 2z" fill="#335EEA" opacity=".3"></path><rect fill="#335EEA" x="6" y="11" width="9" height="2" rx="1"></rect><rect fill="#335EEA" x="6" y="15" width="5" height="2" rx="1"></rect></g></svg>
+                      </div>
+  
+                      <!-- Content -->
+                      <div class="ml-4">
+  
+                        <!-- Heading -->
+                        <h6 class="font-weight-bold text-uppercase text-primary mb-0">
+                          Changelog
+                        </h6>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-gray-700 mb-0">
+                          Keep track of changes
+                        </p>
+  
+                      </div>
+  
+                      <!-- Badge -->
+                      <span class="badge badge-pill badge-primary-soft ml-auto">
+                        1.1.3
+                      </span>
+  
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDocumentation" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                 Research
+                <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarDocumentation">
+                  <div class="list-group list-group-flush">
+                    <a class="list-group-item" href="docs/index.html">
+  
+                      <!-- Icon -->
+                      <div class="icon icon-sm text-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M8 3v.5A1.5 1.5 0 009.5 5h5A1.5 1.5 0 0016 3.5V3h2a2 2 0 012 2v16a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2h2z" fill="#335EEA" opacity=".3"></path><path d="M11 2a1 1 0 012 0h1.5a.5.5 0 01.5.5v1a.5.5 0 01-.5.5h-5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11z" fill="#335EEA"></path><rect fill="#335EEA" opacity=".3" x="7" y="10" width="5" height="2" rx="1"></rect><rect fill="#335EEA" opacity=".3" x="7" y="14" width="9" height="2" rx="1"></rect></g></svg>
+                      </div>
+  
+                      <!-- Content -->
+                      <div class="ml-4">
+  
+                        <!-- Heading -->
+                        <h6 class="font-weight-bold text-uppercase text-primary mb-0">
+                          Documentation
+                        </h6>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-gray-700 mb-0">
+                          Customizing and building
+                        </p>
+  
+                      </div>
+  
+                    </a>
+                    <a class="list-group-item" href="docs/alerts.html">
+  
+                      <!-- Icon -->
+                      <div class="icon icon-sm text-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><rect fill="#335EEA" x="4" y="4" width="7" height="7" rx="1.5"></rect><path d="M5.5 13h4a1.5 1.5 0 011.5 1.5v4A1.5 1.5 0 019.5 20h-4A1.5 1.5 0 014 18.5v-4A1.5 1.5 0 015.5 13zm9-9h4A1.5 1.5 0 0120 5.5v4a1.5 1.5 0 01-1.5 1.5h-4A1.5 1.5 0 0113 9.5v-4A1.5 1.5 0 0114.5 4zm0 9h4a1.5 1.5 0 011.5 1.5v4a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-4a1.5 1.5 0 011.5-1.5z" fill="#335EEA" opacity=".3"></path></g></svg>
+                      </div>
+  
+                      <!-- Content -->
+                      <div class="ml-4">
+  
+                        <!-- Heading -->
+                        <h6 class="font-weight-bold text-uppercase text-primary mb-0">
+                          Components
+                        </h6>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-gray-700 mb-0">
+                          Full list of components
+                        </p>
+  
+                      </div>
+  
+                    </a>
+                    <a class="list-group-item" href="docs/changelog.html">
+  
+                      <!-- Icon -->
+                      <div class="icon icon-sm text-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M5.857 2h7.88a1.5 1.5 0 01.968.355l4.764 4.029A1.5 1.5 0 0120 7.529v12.554c0 1.79-.02 1.917-1.857 1.917H5.857C4.02 22 4 21.874 4 20.083V3.917C4 2.127 4.02 2 5.857 2z" fill="#335EEA" opacity=".3"></path><rect fill="#335EEA" x="6" y="11" width="9" height="2" rx="1"></rect><rect fill="#335EEA" x="6" y="15" width="5" height="2" rx="1"></rect></g></svg>
+                      </div>
+  
+                      <!-- Content -->
+                      <div class="ml-4">
+  
+                        <!-- Heading -->
+                        <h6 class="font-weight-bold text-uppercase text-primary mb-0">
+                          Changelog
+                        </h6>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-gray-700 mb-0">
+                          Keep track of changes
+                        </p>
+  
+                      </div>
+  
+                      <!-- Badge -->
+                      <span class="badge badge-pill badge-primary-soft ml-auto">
+                        1.1.3
+                      </span>
+  
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDocumentation" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                 International
+                <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarDocumentation">
+                  <div class="list-group list-group-flush">
+                    <a class="list-group-item" href="docs/index.html">
+  
+                      <!-- Icon -->
+                      <div class="icon icon-sm text-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M8 3v.5A1.5 1.5 0 009.5 5h5A1.5 1.5 0 0016 3.5V3h2a2 2 0 012 2v16a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2h2z" fill="#335EEA" opacity=".3"></path><path d="M11 2a1 1 0 012 0h1.5a.5.5 0 01.5.5v1a.5.5 0 01-.5.5h-5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11z" fill="#335EEA"></path><rect fill="#335EEA" opacity=".3" x="7" y="10" width="5" height="2" rx="1"></rect><rect fill="#335EEA" opacity=".3" x="7" y="14" width="9" height="2" rx="1"></rect></g></svg>
+                      </div>
+  
+                      <!-- Content -->
+                      <div class="ml-4">
+  
+                        <!-- Heading -->
+                        <h6 class="font-weight-bold text-uppercase text-primary mb-0">
+                          Documentation
+                        </h6>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-gray-700 mb-0">
+                          Customizing and building
+                        </p>
+  
+                      </div>
+  
+                    </a>
+                    <a class="list-group-item" href="docs/alerts.html">
+  
+                      <!-- Icon -->
+                      <div class="icon icon-sm text-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><rect fill="#335EEA" x="4" y="4" width="7" height="7" rx="1.5"></rect><path d="M5.5 13h4a1.5 1.5 0 011.5 1.5v4A1.5 1.5 0 019.5 20h-4A1.5 1.5 0 014 18.5v-4A1.5 1.5 0 015.5 13zm9-9h4A1.5 1.5 0 0120 5.5v4a1.5 1.5 0 01-1.5 1.5h-4A1.5 1.5 0 0113 9.5v-4A1.5 1.5 0 0114.5 4zm0 9h4a1.5 1.5 0 011.5 1.5v4a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-4a1.5 1.5 0 011.5-1.5z" fill="#335EEA" opacity=".3"></path></g></svg>
+                      </div>
+  
+                      <!-- Content -->
+                      <div class="ml-4">
+  
+                        <!-- Heading -->
+                        <h6 class="font-weight-bold text-uppercase text-primary mb-0">
+                          Components
+                        </h6>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-gray-700 mb-0">
+                          Full list of components
+                        </p>
+  
+                      </div>
+  
+                    </a>
+                    <a class="list-group-item" href="docs/changelog.html">
+  
+                      <!-- Icon -->
+                      <div class="icon icon-sm text-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M5.857 2h7.88a1.5 1.5 0 01.968.355l4.764 4.029A1.5 1.5 0 0120 7.529v12.554c0 1.79-.02 1.917-1.857 1.917H5.857C4.02 22 4 21.874 4 20.083V3.917C4 2.127 4.02 2 5.857 2z" fill="#335EEA" opacity=".3"></path><rect fill="#335EEA" x="6" y="11" width="9" height="2" rx="1"></rect><rect fill="#335EEA" x="6" y="15" width="5" height="2" rx="1"></rect></g></svg>
+                      </div>
+  
+                      <!-- Content -->
+                      <div class="ml-4">
+  
+                        <!-- Heading -->
+                        <h6 class="font-weight-bold text-uppercase text-primary mb-0">
+                          Changelog
+                        </h6>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-gray-700 mb-0">
+                          Keep track of changes
+                        </p>
+  
+                      </div>
+  
+                      <!-- Badge -->
+                      <span class="badge badge-pill badge-primary-soft ml-auto">
+                        1.1.3
+                      </span>
+  
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+  
+            <!-- Button -->
+            <!-- <a class="navbar-btn btn btn-sm btn-primary lift ml-auto" href="https://themes.getbootstrap.com/product/landkit/" target="_blank">
+              Buy now
+            </a> -->
+  
           </div>
-      </header>
+  
+        </div>
+      </nav>
+      <!-- ================slider=========================== -->
+      <section data-jarallax="" data-speed=".8" class="py-12 py-md-15 bg-cover jarallax" style="background-image: none;" data-jarallax-original-styles="background-image: url(https://ajce.in/home/images/slider_08.jpg);">
+        <div style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;" id="jarallax-container-0">
+          <div style="background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url(&quot;https://ajce.in/home/images/slider_08.jpg&quot;); position: absolute; top: 0px; left: 0px; width: 100%; height:80vh; overflow: hidden; pointer-events: none; margin-top: 56.8px; transform: translate3d(0px, -73.44px, 0px);">
+            
+          </div>
+        </div>
+      </section>
+      <section class="pt-5 pt-md-1">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-12 col-md-6">
+              
+              <!-- Badge -->
+            
+  
+              <!-- Heading -->
+              <h2>
+               Quick Look <br>
+                
+              </h2>
+  
+              <!-- Text -->
+              <p class="font-size-lg text-muted mb-6 mb-md-0">
+                T K M College of Engineering, the  first Government- aided engineering college in Kerala, is situated in the cashew hub of Kerala, City of Kollam. Spanning over an area of more than 25 Acres, it is ideally located in Karikode, on the Kollam- Chenkotta road, about 5 kilometers from the heart of the city. The campus, a distinctive landmark that cuts above the rest is built in the aesthetic Indo Saracenic architectural style with mughal influence .
+              </p>
+  
+            </div>
+            <div class="col-12 col-md-6 order-md-1">
+            
+              <!-- Card -->
+              <div class="card border-success ">
+                <div class="card-body">
+                  
+                  <!-- List group -->
+                  <div class="list-group list-group-flush">
+                    <div class="list-group-item d-flex align-items-center">
+                      
+                      <!-- Text -->
+                      <div class="mr-auto">
+                        <h4 class="text-success">Latest News</h4>
+                        
+                        <!-- Heading -->
+                        <p class="font-weight-bold mb-1">
+                          Vacancy details for S3 inter college transfer 2020-21
+                        </p>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-muted mb-0">
+                          Published : May 23 / 2020
+                        </p>
+  
+                      </div>
+                        
+                      <!-- Check -->
+                      <div class="badge badge-rounded-circle badge-success-soft ml-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+  
+                    </div>
+                    <div class="list-group-item d-flex align-items-center">
+                        
+                      <!-- Text -->                
+                      <div class="mr-auto">
+                        
+                        <!-- Heading -->
+                        <p class="font-weight-bold mb-1">
+                          The interview for Ph.D. advance admission under QIP stands postponed....
+                        </p>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-muted mb-0">
+                          Published : March 12 / 2020
+                        </p>
+  
+                      </div>
+                        
+                      <!-- Check -->
+                      <div class="badge badge-rounded-circle badge-success-soft ml-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+  
+                    </div>
+                    <div class="list-group-item d-flex align-items-center">
+                        
+                      <!-- Text -->
+                      <div class="mr-auto">
+                        
+                        <!-- Heading -->
+                        <p class="font-weight-bold mb-1">
+                          Interview on 17.03.20 and 18.03.20 cancelled
+                        </p>
+  
+                        <!-- Text -->
+                        <p class="font-size-sm text-muted mb-0">
+                          Published : March 12 / 2020
+                        </p>
+  
+                      </div>
+                        
+                      <!-- Check -->
+                      <div class="badge badge-rounded-circle badge-success-soft ml-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+  
+                    </div>
+                   
+                  </div>
+  
+                </div>
+              </div>
+  
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </section>
+      <section class="py-8 py-md-11 bg-light">
+        <div class="container">
+          <div class="col-10">
+          
+            <!-- Heading -->
+            <h2 class="mb-0">
+              Latest Events
+            </h2>
 
+            <!--  -->
+            <p class="mb-5 text-muted">
+              Whats happening
+            </p>
 
-      <section>
-        <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
-            <div class="col-md-6 px-0">
-              <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
-              <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-              <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+          </div>
+          <div class="card shadow-light-lg accordion mb-5 mb-md-6" id="helpAccordionOne">
+            <div class="list-group">
+             
+              <div class="list-group-item">
+                
+                <!-- Toggle -->
+                <a class="d-flex align-items-center text-reset text-decoration-none collapsed" data-toggle="collapse" href="#helpOne" role="button" aria-expanded="false" aria-controls="helpOne">
+                    
+                  <!-- Title -->
+                  <span class="mr-4">
+                    Scopus Indexed International Conference on Power, Energy, Control, Signals & Systems (IPECS 2020)
+                   
+                  </span>
+                  
+                  <!-- Metadata -->
+                  <div class="text-muted ml-auto">
+
+                    <!-- Text -->
+                    <span class="font-size-sm mr-4 d-none d-md-inline">
+                      March 27 2020
+                    </span>
+                    
+                    <!-- Chevron -->
+                    <span class="collapse-chevron text-muted">
+                      <i class="fe fe-lg fe-chevron-down"></i>
+                    </span>
+
+                  </div>
+
+                </a>
+                
+                <!-- Collapse -->
+                <div class="collapse" id="helpOne" data-parent="#helpAccordionOne" >
+                  <div class="py-5">
+
+                    <!-- Text -->
+                    <p class="text-gray-700">
+                      Greetings from IPECS 2020! We are glad to inform you that Electrical & Electronics Engineering Department of TKM College of Engineering, Kollam, India is organizing an International Conference on Power, Energy, Control, Signals & Systems (IPECS 2020) during the month of March on 27-28th 2020. The conference will provide an opportunity for academic scientists, researchers, […]
+                    </p>
+
+                    <div class="d-flex align-items-center">
+                        
+                      <!-- Vote -->
+                      <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
+                        <label class="btn btn-sm btn-white active">
+                          <input type="radio" name="helpOneVote" id="helpOneDown" checked=""> <i class="fe fe-thumbs-down"></i>
+                        </label>
+                        <label class="btn btn-sm btn-white">
+                          <input type="radio" name="helpOneVote" id="helpOneUp"> <i class="fe fe-thumbs-up"></i>
+                        </label>
+                      </div>
+                      
+                      <!-- Text -->
+                      <span class="font-size-sm text-muted">
+                        Did this help solve your issue?
+                      </span>
+
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+              <div class="list-group-item">
+                
+                <!-- Toggle -->
+                <a class="d-flex align-items-center text-reset text-decoration-none collapsed" data-toggle="collapse" href="#helpOne" role="button" aria-expanded="false" aria-controls="helpOne">
+                    
+                  <!-- Title -->
+                  <span class="mr-4">
+                    Department of EEE is organizing a FDP on “Real Time Control & Monitoring of Power Electronic...
+                   
+                  </span>
+                  
+                  <!-- Metadata -->
+                  <div class="text-muted ml-auto">
+
+                    <!-- Text -->
+                    <span class="font-size-sm mr-4 d-none d-md-inline">
+                      March 27 2020
+                    </span>
+                    
+                    <!-- Chevron -->
+                    <span class="collapse-chevron text-muted">
+                      <i class="fe fe-lg fe-chevron-down"></i>
+                    </span>
+
+                  </div>
+
+                </a>
+                
+                <!-- Collapse -->
+                <div class="collapse" id="helpOne" data-parent="#helpAccordionOne" >
+                  <div class="py-5">
+
+                    <!-- Text -->
+                    <p class="text-gray-700">
+                      Greetings from IPECS 2020! We are glad to inform you that Electrical & Electronics Engineering Department of TKM College of Engineering, Kollam, India is organizing an International Conference on Power, Energy, Control, Signals & Systems (IPECS 2020) during the month of March on 27-28th 2020. The conference will provide an opportunity for academic scientists, researchers, […]
+                    </p>
+
+                    <div class="d-flex align-items-center">
+                        
+                      <!-- Vote -->
+                      <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
+                        <label class="btn btn-sm btn-white active">
+                          <input type="radio" name="helpOneVote" id="helpOneDown" checked=""> <i class="fe fe-thumbs-down"></i>
+                        </label>
+                        <label class="btn btn-sm btn-white">
+                          <input type="radio" name="helpOneVote" id="helpOneUp"> <i class="fe fe-thumbs-up"></i>
+                        </label>
+                      </div>
+                      
+                      <!-- Text -->
+                      <span class="font-size-sm text-muted">
+                        Did this help solve your issue?
+                      </span>
+
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+              <div class="list-group-item">
+                
+                <!-- Toggle -->
+                <a class="d-flex align-items-center text-reset text-decoration-none collapsed" data-toggle="collapse" href="#helpOne" role="button" aria-expanded="false" aria-controls="helpOne">
+                    
+                  <!-- Title -->
+                  <span class="mr-4">
+                    SDepartment of ECE is organizing FDP on “Biomedical Instrumentation and Signal Processing” on ..
+                   
+                  </span>
+                  
+                  <!-- Metadata -->
+                  <div class="text-muted ml-auto">
+
+                    <!-- Text -->
+                    <span class="font-size-sm mr-4 d-none d-md-inline">
+                      March 27 2020
+                    </span>
+                    
+                    <!-- Chevron -->
+                    <span class="collapse-chevron text-muted">
+                      <i class="fe fe-lg fe-chevron-down"></i>
+                    </span>
+
+                  </div>
+
+                </a>
+                
+                <!-- Collapse -->
+                <div class="collapse" id="helpOne" data-parent="#helpAccordionOne" >
+                  <div class="py-5">
+
+                    <!-- Text -->
+                    <p class="text-gray-700">
+                      Greetings from IPECS 2020! We are glad to inform you that Electrical & Electronics Engineering Department of TKM College of Engineering, Kollam, India is organizing an International Conference on Power, Energy, Control, Signals & Systems (IPECS 2020) during the month of March on 27-28th 2020. The conference will provide an opportunity for academic scientists, researchers, […]
+                    </p>
+
+                    <div class="d-flex align-items-center">
+                        
+                      <!-- Vote -->
+                      <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
+                        <label class="btn btn-sm btn-white active">
+                          <input type="radio" name="helpOneVote" id="helpOneDown" checked=""> <i class="fe fe-thumbs-down"></i>
+                        </label>
+                        <label class="btn btn-sm btn-white">
+                          <input type="radio" name="helpOneVote" id="helpOneUp"> <i class="fe fe-thumbs-up"></i>
+                        </label>
+                      </div>
+                      
+                      <!-- Text -->
+                      <span class="font-size-sm text-muted">
+                        Did this help solve your issue?
+                      </span>
+
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+              <div class="list-group-item">
+                
+                <!-- Toggle -->
+                <a class="d-flex align-items-center text-reset text-decoration-none collapsed" data-toggle="collapse" href="#helpOne" role="button" aria-expanded="false" aria-controls="helpOne">
+                    
+                  <!-- Title -->
+                  <span class="mr-4">
+                    5th International Conference on Modeling and Simulation in Civil Engineering (ICMSC 2019) on 11 – 13 December, 2019
+                   
+                  </span>
+                  
+                  <!-- Metadata -->
+                  <div class="text-muted ml-auto">
+
+                    <!-- Text -->
+                    <span class="font-size-sm mr-4 d-none d-md-inline">
+                      March 27 2020
+                    </span>
+                    
+                    <!-- Chevron -->
+                    <span class="collapse-chevron text-muted">
+                      <i class="fe fe-lg fe-chevron-down"></i>
+                    </span>
+
+                  </div>
+
+                </a>
+                
+                <!-- Collapse -->
+                <div class="collapse" id="helpOne" data-parent="#helpAccordionOne" >
+                  <div class="py-5">
+
+                    <!-- Text -->
+                    <p class="text-gray-700">
+                      Greetings from IPECS 2020! We are glad to inform you that Electrical & Electronics Engineering Department of TKM College of Engineering, Kollam, India is organizing an International Conference on Power, Energy, Control, Signals & Systems (IPECS 2020) during the month of March on 27-28th 2020. The conference will provide an opportunity for academic scientists, researchers, […]
+                    </p>
+
+                    <div class="d-flex align-items-center">
+                        
+                      <!-- Vote -->
+                      <div class="btn-group btn-group-toggle mr-4" data-toggle="buttons">
+                        <label class="btn btn-sm btn-white active">
+                          <input type="radio" name="helpOneVote" id="helpOneDown" checked=""> <i class="fe fe-thumbs-down"></i>
+                        </label>
+                        <label class="btn btn-sm btn-white">
+                          <input type="radio" name="helpOneVote" id="helpOneUp"> <i class="fe fe-thumbs-up"></i>
+                        </label>
+                      </div>
+                      
+                      <!-- Text -->
+                      <span class="font-size-sm text-muted">
+                        Did this help solve your issue?
+                      </span>
+
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
             </div>
           </div>
-        </section>
-      <div class="content">
+            
+          <!-- / .row -->
+        </div> <!-- / .container -->
+      </section>
+      <section class="py-8 py-md-11 ">
         <section>
-            <div>
-               <h3>Latest News</h3>
-            </div>
-            <div>
-                coming soon
-            </div>
-        </section>
-            <section>
-                <div>
-                    <h3>Events</h3>
-                </div>
-                <div class="row mb-2">
-                    <div class="col-md-6">
-                      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                        <div class="col p-4 d-flex flex-column position-static">
-                          <strong class="d-inline-block mb-2 text-primary">World</strong>
-                          <h3 class="mb-0">Featured post</h3>
-                          <div class="mb-1 text-muted">Nov 12</div>
-                          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="stretched-link">Continue reading</a>
-                        </div>
-                        <div class="col-auto d-none d-lg-block">
-                          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                        <div class="col p-4 d-flex flex-column position-static">
-                          <strong class="d-inline-block mb-2 text-success">Design</strong>
-                          <h3 class="mb-0">Post title</h3>
-                          <div class="mb-1 text-muted">Nov 11</div>
-                          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="stretched-link">Continue reading</a>
-                        </div>
-                        <div class="col-auto d-none d-lg-block">
-                          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-                <div class="row mb-2">
-                    <div class="col-md-6">
-                      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                        <div class="col p-4 d-flex flex-column position-static">
-                          <strong class="d-inline-block mb-2 text-primary">World</strong>
-                          <h3 class="mb-0">Featured post</h3>
-                          <div class="mb-1 text-muted">Nov 12</div>
-                          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="stretched-link">Continue reading</a>
-                        </div>
-                        <div class="col-auto d-none d-lg-block">
-                          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                        <div class="col p-4 d-flex flex-column position-static">
-                          <strong class="d-inline-block mb-2 text-success">Design</strong>
-                          <h3 class="mb-0">Post title</h3>
-                          <div class="mb-1 text-muted">Nov 11</div>
-                          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="stretched-link">Continue reading</a>
-                        </div>
-                        <div class="col-auto d-none d-lg-block">
-                          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div>
-                    chairman principal
-                </div>
-            </section>
-           
-            <section class="department">
-                <div>
-                    <h2>Departments</h2>
-                </div>
-                <div class="album py-5 bg-light">
-                    <div class="container">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-12 col-md">
                 
-                      <div class="row">
-                        <div class="col-md-4">
-                          <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                            <div class="card-body">
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-4">
-                          <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                            <div class="card-body">
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-4">
-                          <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                            <div class="card-body">
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                
-                        <div class="col-md-4">
-                          <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                            <div class="card-body">
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-4">
-                          <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                            <div class="card-body">
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-4">
-                          <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                            <div class="card-body">
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                
-                        <div class="col-md-4">
-                          <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                            <div class="card-body">
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-4">
-                          <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                            <div class="card-body">
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-4">
-                          <div class="card mb-4 shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                            <div class="card-body">
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                <!-- Blockquote -->
+                <blockquote class="blockquote mb-8 mb-md-0">
+    
+                  <!-- Logo -->
+                  <div class="img-fluid mb-5 mb-md-6 svg-shim" style="max-width: 120px; color: #FF5A5F;">
+                    <div class="avatar avatar-lg">
+                      <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
                     </div>
                   </div>
-            </section>
-            <section>
-                <div class="row featurette">
-                    <div class="col-md-7">
-                      <h2 class="featurette-heading">Campus Life <span class="text-muted">It’ll blow your mind.</span></h2>
-                      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                  
+                  <!-- Text -->
+                  <h2>Chairman's Message</h2>
+                  <p class="lead text-gray-700 mb-5 mb-md-7 ">
+                    "T K M College of Engineering, the fondly remembered alma mater of thousands of capable engineers worldwide, has for more than half a century, shown how a visionary and his ideas can transform an entire state’s educational aspirations. Revered by many and eulogized by many more, Janab Thangal Kunju Musaliar still remains in our memory as the torch bearer of professional education in the private sector in the State of Kerala.  I humbly believe that the T K M College Trust has been able to ..."
+                  </p>
+    
+                  <!-- Footer -->
+                  <p class="font-size-sm font-weight-bold mb-0">
+                    Bernhard
+                  </p>
+                  <p class="font-size-sm text-muted mb-0">
+                    Dashkit customer
+                  </p>
+    
+                </blockquote>
+    
+              </div>
+              <div class="col-1"></div>
+              <div class="col-1 border-left"></div>
+              <div class="col-12 col-md">
+                
+                <!-- Blockquote -->
+                <blockquote class="blockquote mb-0">
+    
+                  <!-- Logo -->
+                  <div class="img-fluid mb-5 mb-md-6 svg-shim" style="max-width: 120px; color: #0081C9;">
+                    <div class="avatar avatar-lg">
+                      <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
                     </div>
-                    <div class="col-md-5">
-                      <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-                    </div>
-                </div>
-                <hr>
-                <div class="row featurette">
-                    <div class="col-md-7 order-md-2">
-                      <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-                      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                    </div>
-                    <div class="col-md-5 order-md-1">
-                      <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-                    </div>
-                </div>
-                <hr>
-                <div class="row featurette">
-                    <div class="col-md-7">
-                      <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                    </div>
-                    <div class="col-md-5">
-                      <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-                    </div>
-                </div>
-            </section>
-      </div>
+                  </div>
+                  
+                  <!-- Text -->
+                  <h2>Principal's Desk</h2>
+                  <p class="lead text-gray-700 mb-5 mb-md-7">
+                    “Higher Education in our country has been undergoing tremendous changes for the last two decades. In addition to the domain knowledge, what will drive today’s children to success is an innate understanding of the inter-connectedness and inter-dependencies that form the underpinnings of the global village.  Keeping abreast with these changes and adapting them in our institution pose great challenges before us, since it demands us to redefine our infrastructure, etiquettes, mindset and attitude. In ...”
+                  </p>
+    
+                  <!-- Footer -->
+                  <p class="font-size-sm font-weight-bold mb-0">
+                    Francisco
+                  </p>
+                  <p class="font-size-sm text-muted mb-0">
+                    Dashkit customer
+                  </p>
+    
+                </blockquote>
+    
+              </div>
+            </div> <!-- / .row -->
+          </div> <!-- / .container -->
+        </section>
+      </section>
+      <section class="pt-7 pt-md-10 bg-light">
+        <div class="container">
+          <div class="row align-items-center mb-5">
+            <div class="col-12 col-md">
+  
+              <!-- Heading -->
+              <h3 class="mb-0">
+                Facilities
+              </h3>
+  
+              <!-- Text -->
+              <p class="mb-0 text-muted">
+                Here’s what we've been up to recently.
+              </p>
+  
+            </div>
+            <div class="col-12 col-md-auto">
+  
+              <!-- Button -->
+              <a href="#!" class="btn btn-sm btn-outline-gray-300 d-none d-md-inline">
+                View all
+              </a>
+  
+            </div>
+          </div> <!-- / .row -->
+          <div class="row">
+            
+            <div class="col-12 col-md-6 col-lg-3 d-flex">
+  
+              <!-- Card -->
+              <div class="card mb-6 mb-lg-0 pt-14 overlay overlay-black overlay-30 bg-cover shadow-light-lg lift lift-lg" style="background-image: url(http://tkmce.ac.in/wp-content/uploads/2014/09/Academics.jpg);">
 
+                <!-- Body -->
+                <a class="card-body mt-auto" href="#!">
+  
+                  <!-- Heading -->
+                  <h3 class="text-white">
+                    Departments
+                  </h3>
+                  <!-- <p class="mb-0 text-white">
+                    Using free stock photos of your surrounding areas can skyrocket your popularity.
+                  </p> -->
+                  <!-- Text -->
+                
+  
+                </a>
+  
+                <!-- Meta -->
+               
+                
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 d-flex">
+  
+              <!-- Card -->
+              <div class="card mb-6 mb-lg-0 pt-14 overlay overlay-black overlay-30 bg-cover shadow-light-lg lift lift-lg" style="background-image: url(http://tkmce.ac.in/wp-content/uploads/2014/09/Campus_Life.jpg);">
 
+                <!-- Body -->
+                <a class="card-body mt-auto" href="#!">
+  
+                  <!-- Heading -->
+                  <h3 class="text-white">
+                    Programmes Offered
+                  </h3>
+                  <!-- <p class="mb-0 text-white">
+                    Using free stock photos of your surrounding areas can skyrocket your popularity.
+                  </p> -->
+                  <!-- Text -->
+                
+  
+                </a>
+  
+                <!-- Meta -->
+               
+                
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 d-flex">
+  
+              <!-- Card -->
+              <div class="card mb-6 mb-lg-0 pt-14 overlay overlay-black overlay-30 bg-cover shadow-light-lg lift lift-lg" style="background-image: url(http://tkmce.ac.in/wp-content/uploads/2014/09/Vission_Mission.jpg);">
 
-  </div>
-  <footer class="pt-4 my-md-5 pt-md-5 border-top">
-    <div class="row">
-      <div class="col-12 col-md">
-        <img class="mb-2" src="/docs/4.5/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
-        <small class="d-block mb-3 text-muted">© 2017-2020</small>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Features</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Cool stuff</a></li>
-          <li><a class="text-muted" href="#">Random feature</a></li>
-          <li><a class="text-muted" href="#">Team feature</a></li>
-          <li><a class="text-muted" href="#">Stuff for developers</a></li>
-          <li><a class="text-muted" href="#">Another one</a></li>
-          <li><a class="text-muted" href="#">Last time</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Resources</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Resource</a></li>
-          <li><a class="text-muted" href="#">Resource name</a></li>
-          <li><a class="text-muted" href="#">Another resource</a></li>
-          <li><a class="text-muted" href="#">Final resource</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>About</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Team</a></li>
-          <li><a class="text-muted" href="#">Locations</a></li>
-          <li><a class="text-muted" href="#">Privacy</a></li>
-          <li><a class="text-muted" href="#">Terms</a></li>
-        </ul>
-      </div>
-    </div>
+                <!-- Body -->
+                <a class="card-body mt-auto" href="#!">
+  
+                  <!-- Heading -->
+                  <h3 class="text-white">
+                    College Committies
+                  </h3>
+                  <!-- <p class="mb-0 text-white">
+                    Using free stock photos of your surrounding areas can skyrocket your popularity.
+                  </p> -->
+                  <!-- Text -->
+                
+  
+                </a>
+  
+                <!-- Meta -->
+               
+                
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 d-flex">
+  
+              <!-- Card -->
+              <div class="card mb-6 mb-lg-0 pt-14 overlay overlay-black overlay-30 bg-cover shadow-light-lg lift lift-lg" style="background-image: url(http://tkmce.ac.in/wp-content/uploads/2014/09/Academics.jpg);">
+
+                <!-- Body -->
+                <a class="card-body mt-auto" href="#!">
+  
+                  <!-- Heading -->
+                  <h3 class="text-white">
+                    Campus Life
+                  </h3>
+                  <!-- <p class="mb-0 text-white">
+                    Using free stock photos of your surrounding areas can skyrocket your popularity.
+                  </p> -->
+                  <!-- Text -->
+                
+  
+                </a>
+  
+                <!-- Meta -->
+               
+                
+              </div>
+            </div>
+           
+          </div> <!-- / .row -->
+        </div> 
+        <br>
+        <br><br><!-- / .container -->
+      </section>
+      <section class="py-8 py-md-11">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6 col-lg-5 aos-init aos-animate" data-aos="fade-up">
+              
+              <!-- Badge -->
+              
+  
+              <!-- Heading -->
+              <h2 class="font-weight-bold">
+               Contact <br>
+                
+              </h2>
+  
+              <!-- Text -->
+              <p class="font-size-lg text-gray-700">
+               
+
+              TKM College of Engineering,
+              Kollam <br> Thirumangalam Rd
+              Karicode, Peroor,
+              Kerala 691005<br>
+              0474 271 2024<br>
+              011122233344<br>
+              </p>
+  
+              <!-- Form -->
+              
+  
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 offset-lg-1">
+              
+              <!-- Card -->
+              <div class="" data-aos="fade-up">
+                <div class="">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.626999099731!2d76.62976341421884!3d8.914225093600537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05fd3036020df5%3A0xc3c1007e5232dc27!2sTKM%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1590329312363!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  
+                </div>
+              </div>
+  
+              <!-- Text -->
+              <p class="font-size-sm text-center text-gray-500 mb-0">
+                * Limited to the life of the company
+              </p>
+  
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </section>
+ </div>
+  <footer class="py-8 py-md-11 bg-gray-200">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4 col-lg-3">
+      
+          <!-- Brand -->
+          TKM College of Engineering
+
+          <!-- Text -->
+          <p class="text-gray-700 mb-2">
+            Affiliated to APJ Abdul Kalam Technological University
+          </p>
+
+          <!-- Social -->
+          <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
+            <li class="list-inline-item list-social-item mr-3">
+              <a href="#!" class="text-decoration-none">
+                <img src="assets/img/icons/social/instagram.svg" class="list-social-icon" alt="...">
+              </a>
+            </li>
+            <li class="list-inline-item list-social-item mr-3">
+              <a href="#!" class="text-decoration-none">
+                <img src="assets/img/icons/social/facebook.svg" class="list-social-icon" alt="...">
+              </a>
+            </li>
+            <li class="list-inline-item list-social-item mr-3">
+              <a href="#!" class="text-decoration-none">
+                <img src="assets/img/icons/social/twitter.svg" class="list-social-icon" alt="...">
+              </a>
+            </li>
+            <li class="list-inline-item list-social-item">
+              <a href="#!" class="text-decoration-none">
+                <img src="assets/img/icons/social/pinterest.svg" class="list-social-icon" alt="...">
+              </a>
+            </li>
+          </ul>
+
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+      
+          <!-- Heading -->
+          <h6 class="font-weight-bold text-uppercase text-gray-700">
+            Products
+          </h6>
+
+          <!-- List -->
+          <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+            <li class="mb-3">
+              <a href="#!" class="text-reset">
+                Page Builder
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="#!" class="text-reset">
+                UI Kit
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="#!" class="text-reset">
+                Styleguide
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="#!" class="text-reset">
+                Documentation
+              </a>
+            </li>
+            <li>
+              <a href="#!" class="text-reset">
+                Changelog
+              </a>
+            </li>
+          </ul>
+
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+      
+          <!-- Heading -->
+          <h6 class="font-weight-bold text-uppercase text-gray-700">
+            Services
+          </h6>
+
+          <!-- List -->
+          <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+            <li class="mb-3">
+              <a href="#!" class="text-reset">
+                Documentation
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="#!" class="text-reset">
+                Changelog
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="#!" class="text-reset">
+                Pagebuilder
+              </a>
+            </li>
+            <li>
+              <a href="#!" class="text-reset">
+                UI Kit
+              </a>
+            </li>
+          </ul>
+
+        </div>
+        <div class="col-6 col-md-4 offset-md-4 col-lg-2 offset-lg-0">
+      
+          <!-- Heading -->
+          <h6 class="font-weight-bold text-uppercase text-gray-700">
+            Connect
+          </h6>
+
+          <!-- List -->
+          <ul class="list-unstyled text-muted mb-0">
+            <li class="mb-3">
+              <a href="#!" class="text-reset">
+                Page Builder
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="#!" class="text-reset">
+                UI Kit
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="#!" class="text-reset">
+                Styleguide
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="#!" class="text-reset">
+                Documentation
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="#!" class="text-reset">
+                Changelog
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="#!" class="text-reset">
+                Documentation
+              </a>
+            </li>
+            <li>
+              <a href="#!" class="text-reset">
+                Changelog
+              </a>
+            </li>
+          </ul>
+
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+      
+          <!-- Heading -->
+          <h6 class="font-weight-bold text-uppercase text-gray-700">
+            Legal
+          </h6>
+
+          <!-- List -->
+          <ul class="list-unstyled text-muted mb-0">
+            <li class="mb-3">
+              <a href="#!" class="text-reset">
+                Documentation
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="#!" class="text-reset">
+                Changelog
+              </a>
+            </li>
+            <li>
+              <a href="#!" class="text-reset">
+                Pagebuilder
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div> <!-- / .row -->
+    </div> <!-- / .container -->
   </footer>
+    
+     <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="assets/libs/flickity-fade/flickity-fade.js"></script>
+    <script src="assets/libs/aos/dist/aos.js"></script>
+    <script src="assets/libs/smooth-scroll/dist/smooth-scroll.min.js"></script>
+    <script src="assets/libs/jarallax/dist/jarallax.min.js"></script>
+    <script src="assets/libs/jarallax/dist/jarallax-video.min.js"></script>
+    <script src="assets/libs/jarallax/dist/jarallax-element.min.js"></script>
+    <script src="assets/libs/typed.js/lib/typed.min.js"></script>
+    <script src="assets/libs/countup.js/dist/countUp.min.js"></script>
+    <script src="assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="assets/libs/%40fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="assets/libs/isotope-layout/dist/isotope.pkgd.min.js"></script>
+    <script src="assets/libs/imagesloaded/imagesloaded.pkgd.min.js"></script>
 
+    <!-- Map -->
+    <script src='../api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+
+    <!-- Theme JS -->
+    <script src="assets/js/theme.min.js"></script>
     <script src="assets/scripts/script.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 
 </body>
 
-<section>
-	<div id="contact" class="section">
-        <div class="container">
-            <div class="title">
-          	    <h2 class="underlined">Contact</h2>
-            </div>
-            <div class="contents">
-                <div class="row">
-                    <div class="col-8" style="float:left;">
-                        <div class="info">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <div class="data">
-                               	<p>TKM College of Engineering,
-                           		<br>
-                           		Kollam - Thirumangalam Rd
-                           		<br>
-                           		Karicode, Peroor,
-                          		<br>
-                           		Kerala 691005
-                               	</p>
-                           	</div>
-                            <div class="info">
-                                <i class="fa fa-phone" aria-hidden="true"></i>
-                                <div class="data"/>
-                                0474 271 2024
-                              	</div>
-
-                            </div>
-                            <div class="info">
-                                <i class="fa fa-fax" aria-hidden="true"></i>
-                                <div class="data"/>
-                                    011122233344
-                              	</div>
-                            </div>
-                                
-                        </div>
-                    </div>
-                    <div class="col-4" style="float:right;">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.626999099731!2d76.62976341421884!3d8.914225093600537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05fd3036020df5%3A0xc3c1007e5232dc27!2sTKM%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1590329312363!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 </html>
 
 
