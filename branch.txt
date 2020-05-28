@@ -1,0 +1,4 @@
+ 
+ 
+ git push --set-upstream origin nidhin
+ git branch --set-upstream-to=origin/<branch> nidhin
