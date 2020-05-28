@@ -17034,3 +17034,16 @@ body.compensate-for-scrollbar {
   right:0
  }
 }
+
+
+
+
+/*Custom styles for department page */
+
+
+.card1{border-radius: 6px;}   
+
+
+.card1:hover {
+    box-shadow: 0 4px 4px rgba(0,0,0,0.19), 0 4px 4px rgba(0, 0, 0, 0.05);
+}
