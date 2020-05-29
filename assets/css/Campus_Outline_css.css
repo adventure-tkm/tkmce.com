@@ -1,0 +1,1087 @@
+.heading_links_size{font-size:13px;}
+.subheading_size{font-size:23px}
+
+
+.overlay001 {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content001 {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.overlay001 a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay001 a:hover, .overlay001 a:focus {
+  color: #f1f1f1;
+}
+
+.overlay001 .closebtn001 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.right{float:right}
+ @media screen and (max-height: 450px) {
+   .overlay001 a {font-size: 20px}
+   .overlay001 .closebtn001 {
+   font-size: 40px;
+   top: 15px;
+   left: 35px;
+   }
+ }
+
+
+ * {
+   box-sizing: border-box;
+ }
+
+ body {
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+ .row {
+   display: -ms-flexbox; /* IE 10 */
+   display: flex;
+   -ms-flex-wrap: wrap; /* IE 10 */
+   flex-wrap: wrap;
+   padding: 0 4px;
+ }
+
+ /* Create two equal columns that sits next to each other */
+ .column {
+   -ms-flex: 50%; /* IE 10 */
+   flex: 50%;
+   padding: 0 4px;
+ }
+
+ .column img {
+   margin-top: 8px;
+   vertical-align: middle;
+ }
+
+ .fs{font-size:16px;}
+
+ .overlay002 {
+   height: 100%;
+   width: 0;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   right: 0;
+   background-color: rgb(0,0,0);
+   background-color: rgba(0,0,0, 0.9);
+   overflow-x: hidden;
+   transition: 0.5s;
+ }
+
+ .overlay-content002 {
+   position: relative;
+   top: 25%;
+   width: 100%;
+   text-align: center;
+   margin-top: 30px;
+ }
+
+
+ .overlay002 a {
+   padding: 8px;
+   text-decoration: none;
+   font-size: 36px;
+   color: #818181;
+   display: block;
+   transition: 0.3s;
+ }
+
+ .overlay002 a:hover, .overlay002 a:focus {
+   color: #f1f1f1;
+ }
+
+ .overlay002 .closebtn002 {
+   position: absolute;
+   top: 20px;
+   right: 45px;
+   font-size: 60px;
+ }
+
+ .right{float:right}
+  @media screen and (max-height: 450px) {
+    .overlay002 a {font-size: 20px}
+    .overlay002 .closebtn002 {
+    font-size: 40px;
+    top: 15px;
+    left: 35px;
+    }
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  .row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  /* Create two equal columns that sits next to each other */
+  .column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+  .fs{font-size:16px;}
+  .overlay003 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .overlay-content003 {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+
+  .overlay003 a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay003 a:hover, .overlay003 a:focus {
+    color: #f1f1f1;
+  }
+
+  .overlay003 .closebtn003 {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+  .right{float:right}
+   @media screen and (max-height: 450px) {
+     .overlay003 a {font-size: 20px}
+     .overlay003 .closebtn003 {
+     font-size: 40px;
+     top: 15px;
+     left: 35px;
+     }
+   }
+   * {
+     box-sizing: border-box;
+   }
+
+   body {
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+   }
+
+
+   .row {
+     display: -ms-flexbox; /* IE 10 */
+     display: flex;
+     -ms-flex-wrap: wrap; /* IE 10 */
+     flex-wrap: wrap;
+     padding: 0 4px;
+   }
+
+   /* Create two equal columns that sits next to each other */
+   .column {
+     -ms-flex: 50%; /* IE 10 */
+     flex: 50%;
+     padding: 0 4px;
+   }
+
+   .column img {
+     margin-top: 8px;
+     vertical-align: middle;
+   }
+
+   .fs{font-size:16px;}
+
+   .overlay004 {
+     height: 100%;
+     width: 0;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     right: 0;
+     background-color: rgb(0,0,0);
+     background-color: rgba(0,0,0, 0.9);
+     overflow-x: hidden;
+     transition: 0.5s;
+   }
+
+   .overlay-content004 {
+     position: relative;
+     top: 25%;
+     width: 100%;
+     text-align: center;
+     margin-top: 30px;
+   }
+
+
+   .overlay004 a {
+     padding: 8px;
+     text-decoration: none;
+     font-size: 36px;
+     color: #818181;
+     display: block;
+     transition: 0.3s;
+   }
+
+   .overlay004 a:hover, .overlay004 a:focus {
+     color: #f1f1f1;
+   }
+
+   .overlay004 .closebtn004 {
+     position: absolute;
+     top: 20px;
+     right: 45px;
+     font-size: 60px;
+   }
+
+   .right{float:right}
+    @media screen and (max-height: 450px) {
+      .overlay004 a {font-size: 20px}
+      .overlay004 .closebtn004 {
+      font-size: 40px;
+      top: 15px;
+      left: 35px;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .row {
+      display: -ms-flexbox; /* IE 10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE 10 */
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+
+    /* Create two equal columns that sits next to each other */
+    .column {
+      -ms-flex: 50%; /* IE 10 */
+      flex: 50%;
+      padding: 0 4px;
+    }
+
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+    }
+
+    .fs{font-size:16px;}
+
+    .overlay005 {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0, 0.9);
+      overflow-x: hidden;
+      transition: 0.5s;
+    }
+
+    .overlay-content005 {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+
+    .overlay005 a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .overlay005 a:hover, .overlay005 a:focus {
+      color: #f1f1f1;
+    }
+
+    .overlay005 .closebtn005 {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+    }
+
+    .right{float:right}
+     @media screen and (max-height: 450px) {
+       .overlay005 a {font-size: 20px}
+       .overlay005 .closebtn005 {
+       font-size: 40px;
+       top: 15px;
+       left: 35px;
+       }
+     }
+     * {
+       box-sizing: border-box;
+     }
+
+     body {
+       margin: 0;
+       font-family: Arial, Helvetica, sans-serif;
+     }
+
+
+     .row {
+       display: -ms-flexbox; /* IE 10 */
+       display: flex;
+       -ms-flex-wrap: wrap; /* IE 10 */
+       flex-wrap: wrap;
+       padding: 0 4px;
+     }
+
+     /* Create two equal columns that sits next to each other */
+     .column {
+       -ms-flex: 50%; /* IE 10 */
+       flex: 50%;
+       padding: 0 4px;
+     }
+
+     .column img {
+       margin-top: 8px;
+       vertical-align: middle;
+     }
+
+     .fs{font-size:16px;}
+     .overlay006 {
+       height: 100%;
+       width: 0;
+       position: fixed;
+       z-index: 1;
+       top: 0;
+       right: 0;
+       background-color: rgb(0,0,0);
+       background-color: rgba(0,0,0, 0.9);
+       overflow-x: hidden;
+       transition: 0.5s;
+     }
+
+     .overlay-content006 {
+       position: relative;
+       top: 25%;
+       width: 100%;
+       text-align: center;
+       margin-top: 30px;
+     }
+
+
+     .overlay006 a {
+       padding: 8px;
+       text-decoration: none;
+       font-size: 36px;
+       color: #818181;
+       display: block;
+       transition: 0.3s;
+     }
+
+     .overlay006 a:hover, .overlay006 a:focus {
+       color: #f1f1f1;
+     }
+
+     .overlay006 .closebtn006 {
+       position: absolute;
+       top: 20px;
+       right: 45px;
+       font-size: 60px;
+     }
+
+     .right{float:right}
+      @media screen and (max-height: 450px) {
+        .overlay006 a {font-size: 20px}
+        .overlay006 .closebtn006 {
+        font-size: 40px;
+        top: 15px;
+        left: 35px;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+
+      .row {
+        display: -ms-flexbox; /* IE 10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE 10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+
+      /* Create two equal columns that sits next to each other */
+      .column {
+        -ms-flex: 50%; /* IE 10 */
+        flex: 50%;
+        padding: 0 4px;
+      }
+
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+      }
+
+      .fs{font-size:16px;}
+
+      .overlay007 {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+      }
+
+      .overlay-content007 {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+      }
+
+
+      .overlay007 a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+
+      .overlay007 a:hover, .overlay007 a:focus {
+        color: #f1f1f1;
+      }
+
+      .overlay007 .closebtn007 {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+      }
+
+      .right{float:right}
+       @media screen and (max-height: 450px) {
+         .overlay007 a {font-size: 20px}
+         .overlay007 .closebtn007 {
+         font-size: 40px;
+         top: 15px;
+         left: 35px;
+         }
+       }
+
+       * {
+         box-sizing: border-box;
+       }
+
+       body {
+         margin: 0;
+         font-family: Arial, Helvetica, sans-serif;
+       }
+
+
+       .row {
+         display: -ms-flexbox; /* IE 10 */
+         display: flex;
+         -ms-flex-wrap: wrap; /* IE 10 */
+         flex-wrap: wrap;
+         padding: 0 4px;
+       }
+
+       /* Create two equal columns that sits next to each other */
+       .column {
+         -ms-flex: 50%; /* IE 10 */
+         flex: 50%;
+         padding: 0 4px;
+       }
+
+       .column img {
+         margin-top: 8px;
+         vertical-align: middle;
+       }
+
+       .fs{font-size:16px;}
+
+       .overlay008 {
+         height: 100%;
+         width: 0;
+         position: fixed;
+         z-index: 1;
+         top: 0;
+         right: 0;
+         background-color: rgb(0,0,0);
+         background-color: rgba(0,0,0, 0.9);
+         overflow-x: hidden;
+         transition: 0.5s;
+       }
+
+       .overlay-content008 {
+         position: relative;
+         top: 25%;
+         width: 100%;
+         text-align: center;
+         margin-top: 30px;
+       }
+
+
+       .overlay008 a {
+         padding: 8px;
+         text-decoration: none;
+         font-size: 36px;
+         color: #818181;
+         display: block;
+         transition: 0.3s;
+       }
+
+       .overlay008 a:hover, .overlay008 a:focus {
+         color: #f1f1f1;
+       }
+
+       .overlay008 .closebtn008 {
+         position: absolute;
+         top: 20px;
+         right: 45px;
+         font-size: 60px;
+       }
+
+       .right{float:right}
+        @media screen and (max-height: 450px) {
+          .overlay008 a {font-size: 20px}
+          .overlay008 .closebtn008 {
+          font-size: 40px;
+          top: 15px;
+          left: 35px;
+          }
+        }
+        * {
+          box-sizing: border-box;
+        }
+
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        .row {
+          display: -ms-flexbox; /* IE 10 */
+          display: flex;
+          -ms-flex-wrap: wrap; /* IE 10 */
+          flex-wrap: wrap;
+          padding: 0 4px;
+        }
+
+        /* Create two equal columns that sits next to each other */
+        .column {
+          -ms-flex: 50%; /* IE 10 */
+          flex: 50%;
+          padding: 0 4px;
+        }
+
+        .column img {
+          margin-top: 8px;
+          vertical-align: middle;
+        }
+
+        .fs{font-size:16px;}
+
+        .overlay009 {
+          height: 100%;
+          width: 0;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          right: 0;
+          background-color: rgb(0,0,0);
+          background-color: rgba(0,0,0, 0.9);
+          overflow-x: hidden;
+          transition: 0.5s;
+        }
+
+        .overlay-content009 {
+          position: relative;
+          top: 25%;
+          width: 100%;
+          text-align: center;
+          margin-top: 30px;
+        }
+
+
+        .overlay009 a {
+          padding: 8px;
+          text-decoration: none;
+          font-size: 36px;
+          color: #818181;
+          display: block;
+          transition: 0.3s;
+        }
+
+        .overlay009 a:hover, .overlay009 a:focus {
+          color: #f1f1f1;
+        }
+
+        .overlay009 .closebtn009 {
+          position: absolute;
+          top: 20px;
+          right: 45px;
+          font-size: 60px;
+        }
+
+        .right{float:right}
+         @media screen and (max-height: 450px) {
+           .overlay009 a {font-size: 20px}
+           .overlay009 .closebtn009 {
+           font-size: 40px;
+           top: 15px;
+           left: 35px;
+           }
+         }
+         * {
+           box-sizing: border-box;
+         }
+
+         body {
+           margin: 0;
+           font-family: Arial, Helvetica, sans-serif;
+         }
+
+
+         .row {
+           display: -ms-flexbox; /* IE 10 */
+           display: flex;
+           -ms-flex-wrap: wrap; /* IE 10 */
+           flex-wrap: wrap;
+           padding: 0 4px;
+         }
+
+         /* Create two equal columns that sits next to each other */
+         .column {
+           -ms-flex: 50%; /* IE 10 */
+           flex: 50%;
+           padding: 0 4px;
+         }
+
+         .column img {
+           margin-top: 8px;
+           vertical-align: middle;
+         }
+
+         .fs{font-size:16px;}
+         .overlay010 {
+           height: 100%;
+           width: 0;
+           position: fixed;
+           z-index: 1;
+           top: 0;
+           right: 0;
+           background-color: rgb(0,0,0);
+           background-color: rgba(0,0,0, 0.9);
+           overflow-x: hidden;
+           transition: 0.5s;
+         }
+
+         .overlay-content010 {
+           position: relative;
+           top: 25%;
+           width: 100%;
+           text-align: center;
+           margin-top: 30px;
+         }
+
+
+         .overlay010 a {
+           padding: 8px;
+           text-decoration: none;
+           font-size: 36px;
+           color: #818181;
+           display: block;
+           transition: 0.3s;
+         }
+
+         .overlay010 a:hover, .overlay010 a:focus {
+           color: #f1f1f1;
+         }
+
+         .overlay010 .closebtn010 {
+           position: absolute;
+           top: 20px;
+           right: 45px;
+           font-size: 60px;
+         }
+
+         .right{float:right}
+          @media screen and (max-height: 450px) {
+            .overlay010 a {font-size: 20px}
+            .overlay010 .closebtn010 {
+            font-size: 40px;
+            top: 15px;
+            left: 35px;
+            }
+          }
+          * {
+            box-sizing: border-box;
+          }
+
+          body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+
+
+          .row {
+            display: -ms-flexbox; /* IE 10 */
+            display: flex;
+            -ms-flex-wrap: wrap; /* IE 10 */
+            flex-wrap: wrap;
+            padding: 0 4px;
+          }
+
+          /* Create two equal columns that sits next to each other */
+          .column {
+            -ms-flex: 50%; /* IE 10 */
+            flex: 50%;
+            padding: 0 4px;
+          }
+
+          .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+          }
+
+          .fs{font-size:16px;}
+
+          .overlay011 {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            right: 0;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0, 0.9);
+            overflow-x: hidden;
+            transition: 0.5s;
+          }
+
+          .overlay-content011 {
+            position: relative;
+            top: 25%;
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+          }
+
+
+          .overlay011 a {
+            padding: 8px;
+            text-decoration: none;
+            font-size: 36px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+          }
+
+          .overlay011 a:hover, .overlay011 a:focus {
+            color: #f1f1f1;
+          }
+
+          .overlay011 .closebtn011 {
+            position: absolute;
+            top: 20px;
+            right: 45px;
+            font-size: 60px;
+          }
+
+          .right{float:right}
+           @media screen and (max-height: 450px) {
+             .overlay011 a {font-size: 20px}
+             .overlay011 .closebtn011 {
+             font-size: 40px;
+             top: 15px;
+             left: 35px;
+             }
+           }
+
+           * {
+             box-sizing: border-box;
+           }
+
+           body {
+             margin: 0;
+             font-family: Arial, Helvetica, sans-serif;
+           }
+
+
+           .row {
+             display: -ms-flexbox; /* IE 10 */
+             display: flex;
+             -ms-flex-wrap: wrap; /* IE 10 */
+             flex-wrap: wrap;
+             padding: 0 4px;
+           }
+
+           /* Create two equal columns that sits next to each other */
+           .column {
+             -ms-flex: 50%; /* IE 10 */
+             flex: 50%;
+             padding: 0 4px;
+           }
+
+           .column img {
+             margin-top: 8px;
+             vertical-align: middle;
+           }
+
+           .fs{font-size:16px;}
+
+           .overlayLD {
+             height: 100%;
+             width: 0;
+             position: fixed;
+             z-index: 1;
+             top: 0;
+             right: 0;
+             background-color: rgb(0,0,0);
+             background-color: rgba(0,0,0, 0.9);
+             overflow-x: hidden;
+             transition: 0.5s;
+           }
+
+           .overlay-contentLD {
+             position: relative;
+             top: 25%;
+             width: 100%;
+             text-align: center;
+             margin-top: 30px;
+           }
+
+
+           .overlayLD a {
+             padding: 8px;
+             text-decoration: none;
+             font-size: 36px;
+             color: #818181;
+             display: block;
+             transition: 0.3s;
+           }
+
+           .overlayLD a:hover, .overlayLD a:focus {
+             color: #f1f1f1;
+           }
+
+           .overlayLD .closebtnLD {
+             position: absolute;
+             top: 20px;
+             right: 45px;
+             font-size: 60px;
+           }
+
+           .right{float:right}
+            @media screen and (max-height: 450px) {
+              .overlayLD a {font-size: 20px}
+              .overlayLD .closebtnLD {
+              font-size: 40px;
+              top: 15px;
+              left: 35px;
+              }
+            }
+            * {
+              box-sizing: border-box;
+            }
+
+            body {
+              margin: 0;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+
+
+            .row {
+              display: -ms-flexbox; /* IE 10 */
+              display: flex;
+              -ms-flex-wrap: wrap; /* IE 10 */
+              flex-wrap: wrap;
+              padding: 0 4px;
+            }
+
+            /* Create two equal columns that sits next to each other */
+            .column {
+              -ms-flex: 50%; /* IE 10 */
+              flex: 50%;
+              padding: 0 4px;
+            }
+
+            .column img {
+              margin-top: 8px;
+              vertical-align: middle;
+            }
+
+            .fs{font-size:16px;}
+            .overlaySTEPS {
+              height: 100%;
+              width: 0;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              right: 0;
+              background-color: rgb(0,0,0);
+              background-color: rgba(0,0,0, 0.9);
+              overflow-x: hidden;
+              transition: 0.5s;
+            }
+
+            .overlay-contentSTEPS {
+              position: relative;
+              top: 25%;
+              width: 100%;
+              text-align: center;
+              margin-top: 30px;
+            }
+
+
+            .overlaySTEPS a {
+              padding: 8px;
+              text-decoration: none;
+              font-size: 36px;
+              color: #818181;
+              display: block;
+              transition: 0.3s;
+            }
+
+            .overlaySTEPS a:hover, .overlaySTEPS a:focus {
+              color: #f1f1f1;
+            }
+
+            .overlaySTEPS .closebtnSTEPS {
+              position: absolute;
+              top: 20px;
+              right: 45px;
+              font-size: 60px;
+            }
+
+            .right{float:right}
+             @media screen and (max-height: 450px) {
+               .overlaySTEPS a {font-size: 20px}
+               .overlaySTEPS .closebtnSTEPS {
+               font-size: 40px;
+               top: 15px;
+               left: 35px;
+               }
+             }
+             * {
+               box-sizing: border-box;
+             }
+
+             body {
+               margin: 0;
+               font-family: Arial, Helvetica, sans-serif;
+             }
+
+
+             .row {
+               display: -ms-flexbox; /* IE 10 */
+               display: flex;
+               -ms-flex-wrap: wrap; /* IE 10 */
+               flex-wrap: wrap;
+               padding: 0 4px;
+             }
+
+             /* Create two equal columns that sits next to each other */
+             .column {
+               -ms-flex: 50%; /* IE 10 */
+               flex: 50%;
+               padding: 0 4px;
+             }
+
+             .column img {
+               margin-top: 8px;
+               vertical-align: middle;
+             }
+
+             .fs{font-size:16px;}
+                                         
